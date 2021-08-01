@@ -6,7 +6,7 @@ description: 'Retrieve the Member ID, with their Username, in the Current Guild.
 
 This function returns the user ID of the specified user. Yes/No will determine if function returns current author id \(yes\) or undefined \(no\) if no match was found. Default is yes
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$findMember[member;returnCurrentMember (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * Member - The member we're finding
 * Return Current Member - Whether or not the author's id will be returned if member not found
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

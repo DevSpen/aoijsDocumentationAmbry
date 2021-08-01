@@ -8,7 +8,7 @@ This function shows you how many inactive members without roles and with optiona
 
 Raw usage: `$pruneMembers[amount of days(optional);guildID(optional);roleid1:roleid2:roleid3... (optional)]`
 
-#### Options:
+## Options:
 
 * `amount of days` =&gt; Number of days of inactivity required to kick 
   * optional
@@ -20,7 +20,7 @@ Raw usage: `$pruneMembers[amount of days(optional);guildID(optional);roleid1:rol
   * optional
   * separated by `:`
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

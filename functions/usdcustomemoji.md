@@ -4,9 +4,9 @@ description: 'Returns a Custom Emoji, from all Guilds.'
 
 # $customEmoji
 
-This  function returns a custom emoji from any guild as long as the bot is in the guild
+This function returns a custom emoji from any guild as long as the bot is in the guild
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw Usage: `$customEmoji[emoji name;$guildID (optional)]`
 
-#### Options
+## Options
 
 * Emoji Name - The emoji the bot will return
 * GuildID - the guild the emoji should be searched from
 
-#### Example Usage:
+## Example Usage:
 
 Without optional guildID field:
 

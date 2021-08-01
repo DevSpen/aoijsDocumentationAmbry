@@ -1,6 +1,6 @@
 # $messageFlags
 
-This function returns the flags of the bot's message 
+This function returns the flags of the bot's message
 
 ```javascript
 bot.command({

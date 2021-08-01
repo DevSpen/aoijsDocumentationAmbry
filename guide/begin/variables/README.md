@@ -8,9 +8,9 @@ description: Here you can see how to setup variables.
 It must be inside of your main file, in most of the cases this is `server.js`
 {% endhint %}
 
-### Setup Variables:
+## Setup Variables:
 
-#### Information:
+### Information:
 
 1. [ ] `Name` =&gt; the variable name. Call it whatever you want to
 2. [ ] `Value` =&gt; the default value of the variable. 
@@ -19,7 +19,7 @@ It must be inside of your main file, in most of the cases this is `server.js`
 It's always this default value unless you change it in a [$setVar](../../../functions/usdsetvar.md)/[$setUserVar](../../../functions/usdsetuservar.md)/[$setServerVar](../../../functions/usdsetservervar.md)/[$setGlobalUserVar](../../../functions/usdsetglobaluservar.md)/[$setMessageVar](../../../functions/usdsetmessagevar.md)/[$setChannelVar](../../../functions/usdsetchannelvar.md).
 {% endhint %}
 
-#### Usage:
+### Usage:
 
 ```javascript
 bot.variables({
@@ -28,7 +28,7 @@ Name2: "Value2"
   })
 ```
 
-#### Example Creation:
+### Example Creation:
 
 ```javascript
 bot.variables({
@@ -60,12 +60,4 @@ bot.variables({
 {% page-ref page="channel-variables.md" %}
 
 {% page-ref page="message-variables.md" %}
-
-
-
-
-
-
-
-
 

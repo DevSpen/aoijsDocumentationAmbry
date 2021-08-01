@@ -6,7 +6,7 @@ description: Changes the current nickname of the user
 
 This function will make the bot change the nickname of the user indicated within the server.
 
-#### Fields
+## Fields
 
 Since this function has 2 parameters \(The two required\) you'll need to add content inside the function in the next order:
 
@@ -15,12 +15,12 @@ Since this function has 2 parameters \(The two required\) you'll need to add con
 
 Raw Usage: `$changeNickname[userID;nickname]`
 
-#### Options
+## Options
 
 * User ID - The user we're changing the nickname from
 * nickname - The nickname we're assigning the &lt;user&gt;
 
-#### Usage
+## Usage
 
 Set a nickname
 

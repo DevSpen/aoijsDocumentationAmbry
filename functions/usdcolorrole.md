@@ -6,7 +6,7 @@ description: Changes the color of the specified role's ID
 
 This function changes the color of a role
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw Usage: `$colorRole[roleID;hex or int color]`
 
-#### Options
+## Options
 
 * Role ID - The role we're changing the color of
 * Hex/Int - The color we're changing the role to
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

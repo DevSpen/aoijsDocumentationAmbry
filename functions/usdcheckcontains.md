@@ -8,7 +8,7 @@ description: >-
 
 This function will show true or false if the specified text contains **at least** one of the provided words.
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -19,13 +19,13 @@ This function has 2 required fields
 
 Raw Usage: `$checkContains[text;word;word2;etc]`
 
-#### Options
+## Options
 
 * Text - The text we're checking
 * Word - The word we're checking to see if it's in the &lt;text&gt;
 * Word 2 -The second word we're checking to see if it's in the &lt;text&gt;
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

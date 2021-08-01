@@ -8,14 +8,14 @@ This function returns what type of mention the given argument is.
 
 Raw usage: `$mentionType[mention argument]`
 
-#### Mention types:
+## Mention types:
 
 * user
 * role
 * channel
 * none
 
-#### Example command:
+## Example command:
 
 ```text
 bot.command({

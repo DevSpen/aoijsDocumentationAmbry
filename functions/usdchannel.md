@@ -2,7 +2,7 @@
 
 This function returns the specified channel's given property
 
-#### Usage
+## Usage
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$channel[channelIID;property]`
 
-#### Options
+## Options
 
 * Channel ID - The channel you want to get the properties from
 * Property - The property you want to get from the &lt;channel&gt;
 
-#### Available Properties
+## Available Properties
 
 * name - Channel's Name
 * topic - Channel's Topic

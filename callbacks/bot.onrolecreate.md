@@ -9,7 +9,7 @@ description: >-
 
 This callback triggers every time a role gets created in a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.roleCreateCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.roleCreateCommand({ 
@@ -30,7 +30,7 @@ $newRole[name]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use these functions [$newRole\[\]](../functions/usdnewrole.md) with the options below to return new role data:
 

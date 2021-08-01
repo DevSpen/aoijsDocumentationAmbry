@@ -8,7 +8,7 @@ This function returns the limit of members the given guild has. This is only for
 
 Raw usage: `$maximumMembers[guildID (optional)]`
 
-#### Usage:
+## Usage:
 
 Example command to return the amount of maximum members of the current guild:
 

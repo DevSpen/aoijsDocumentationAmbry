@@ -2,7 +2,7 @@
 
 This function deletes a message from the given message ID
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$deleteMessage[channelID;messageID]`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're the message is
 * Message ID - The message we're deleting
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

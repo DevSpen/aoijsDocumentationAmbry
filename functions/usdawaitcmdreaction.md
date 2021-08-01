@@ -2,7 +2,7 @@
 
 This function will make the bot reply when a user reacts with the given emoji to the command \(ex: !test\)
 
-#### Fields
+## Fields
 
 This function has 5 required fields
 
@@ -15,7 +15,7 @@ This function has 5 required fields
 
 Raw Usage: `$awaitCmdReaction[userFilter;time;bot message;reaction1,reaction2,...;awaitedCommand1,awaitedCommand2,...;error message (optional)]`
 
-#### Options
+## Options
 
 * userFilter - Use everyone or a userID to filter who can react
 * time - When time runs out, error message will appear
@@ -24,7 +24,7 @@ Raw Usage: `$awaitCmdReaction[userFilter;time;bot message;reaction1,reaction2,..
 * awaitedCommand - The awaitedCommand name that will be executed
 * error - The message when the time runs out
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -39,7 +39,7 @@ code: `Hi, You reacted to 1️⃣ and now i responded!`
 }) //This will respond when the user reacted
 ```
 
-#### Suffixes
+## Suffixes
 
 * s - Seconds
 * m - Minutes

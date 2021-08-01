@@ -6,7 +6,7 @@ description: Loop over every channel this bot can see executing awaited commands
 
 This function creates a loop over ALL channels the bot has access to
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `$forEachChannel[awaitedCommand1;awaitedCommand2;...]`
 
-#### Options
+## Options
 
 * Awaited Command\(s\) - The awaited command\(s\) we're executing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

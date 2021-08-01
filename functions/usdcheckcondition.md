@@ -6,7 +6,7 @@ description: Checks if the given condition is true or false
 
 This function will check if given condition is true or false.
 
-#### Fields
+## Fields
 
 This function 2 fields
 
@@ -15,12 +15,12 @@ This function 2 fields
 
 Raw Usage: `$checkCondition[value(!=/==/>=/<=/</>)value2]`
 
-#### Options
+## Options
 
 * Value 1 - The value we're comparing to value 2
 * Value 2 - The value we're comparing to value 1
 
-#### Conditions
+## Conditions
 
 1. == - Equal
 2. != - Unequal
@@ -29,7 +29,7 @@ Raw Usage: `$checkCondition[value(!=/==/>=/<=/</>)value2]`
 5. &lt; - Less than
 6. &gt; - Greater than
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -38,6 +38,5 @@ bot.command({
   The given condition is $checkCondition[1>2]`
   //Returns false
 });
-
 ```
 

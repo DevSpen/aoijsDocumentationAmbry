@@ -6,7 +6,7 @@ description: 'Returns role ID from specified role name, mention or id'
 
 This function returns the role ID from the given role info
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,11 +14,11 @@ This function has 1 field
 
 Raw Usage: `$findRole[role]`
 
-#### Options
+## Options
 
 * Role - The role we're finding. You can use name/id/mention
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

@@ -9,7 +9,7 @@ description: >-
 
 This callback allows the bot to log every time an invite is created for the current server
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.inviteCreateCommand({ // command
@@ -18,7 +18,7 @@ code: `your code` //code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.inviteCreateCommand({

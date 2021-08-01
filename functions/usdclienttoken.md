@@ -12,7 +12,7 @@ This token should be kept as private because everyone with your bot's token can 
 You should restrict the use of this function to yourself!
 {% endhint %}
 
-#### Usage:
+## Usage:
 
 {% code title="" %}
 ```javascript
@@ -24,6 +24,4 @@ $onlyForIDs[742828990066327562;Only my developer can use this command]
 `})
 ```
 {% endcode %}
-
-
 

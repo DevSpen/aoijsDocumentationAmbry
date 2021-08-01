@@ -14,7 +14,7 @@ code: `code`
 })
 ```
 
-*Aliases are listed in a [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).*
+_Aliases are listed in a_ [_array_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_._
 
 ## Aliases for Command Handler
 
@@ -25,3 +25,4 @@ aliases: ['alias1','aliases2'], // aliases here
 code: `code`
 })
 ```
+

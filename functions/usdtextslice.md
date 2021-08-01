@@ -2,7 +2,7 @@
 
 This function slices the given text to return sliced message from X, or X & Y
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -12,13 +12,13 @@ This function has 2 required fields
 
 Raw Usage: `$textSlice[text;x;y (optional)]`
 
-#### Options
+## Options
 
 * Text - The we're slicing
 * X - The first argument of the slice
 * Y - The second argument of the slice
 
-#### Usage
+## Usage
 
 Without optional field
 

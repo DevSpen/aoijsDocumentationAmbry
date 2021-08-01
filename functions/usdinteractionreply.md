@@ -130,7 +130,7 @@ description: Create an interaction response for an interaction.
 | UpdateMessage | 7 | for components, edit the message the component was attached to |
 
 > [Discord API Documentation](https://discord.com/developers/docs/interactions/slash-commands#interaction-response-object-interaction-callback-type)
-
+>
 > **Note:** means its for component only \(aka buttons only\)
 
 ### Example

@@ -2,19 +2,19 @@
 
 This function returns the specified property from the given emojiID
 
-#### This function has2 fields
+## This function has2 fields
 
 1. Emoji ID \(Required\)
 2. Property \(Required\)
 
-Raw Usage:  `$emoji[emojiID;property]`
+Raw Usage: `$emoji[emojiID;property]`
 
-#### Options
+## Options
 
 * Emoji ID - The emoji from what &lt;property&gt; is  based off of
 * Property - The property of the &lt;emoji&gt;
 
-#### Available Properties
+## Available Properties
 
 * name - Emoji's name
 * id - Emoji's id

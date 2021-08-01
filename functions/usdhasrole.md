@@ -18,5 +18,3 @@ $hasRole[$authorID;$roleID[Muwi]]`
 })
 ```
 
-
-

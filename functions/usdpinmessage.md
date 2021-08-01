@@ -4,15 +4,13 @@ description: Pins a message
 
 # $pinMessage
 
-
-
 This function allows the bot to pin its own message or the given message
 
 ```javascript
 $pinMessage[channelID (optional);messageID (optional)
 ```
 
-Using the function 
+Using the function
 
 ```javascript
 bot.command({

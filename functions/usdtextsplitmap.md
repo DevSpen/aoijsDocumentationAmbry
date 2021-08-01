@@ -30,5 +30,3 @@ Value => $message[1]
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
-
-

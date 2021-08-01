@@ -2,7 +2,7 @@
 
 This function returns all the names of the servers the bot is in.
 
-#### Fields
+## Fields
 
 This function has 1 optional field.
 
@@ -10,11 +10,11 @@ This function has 1 optional field.
 
 Raw usage: `$serverNames[Separator (Optional)]`
 
-#### Options
+## Options
 
 * Separator - Separator in between the server names.
 
-#### Usage without optional field.
+## Usage without optional field.
 
 ```javascript
 bot.command({
@@ -24,7 +24,7 @@ bot.command({
 })
 ```
 
-#### Usage with optional field.
+## Usage with optional field.
 
 ```javascript
 bot.command({

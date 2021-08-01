@@ -30,11 +30,5 @@ Your Token: paNWUYLC22oL-t2hbYeu3zrwWXNfVxjn4TmDDVTISNVRbytCbptYM4DETJDTPzG-1JcA
 */
 ```
 
-
-
 ![Heres a better example](../.gitbook/assets/image%20%287%29.png)
-
-
-
-
 

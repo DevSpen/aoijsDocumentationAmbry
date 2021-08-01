@@ -8,7 +8,7 @@ This function returns the &lt;property&gt; of the currently playing song.
 
 Raw usage: `$songInfo[property;position]`
 
-#### Exapmple for current playing song:
+### Exapmple for current playing song:
 
 ```javascript
 bot.command({
@@ -19,7 +19,7 @@ Currrently Playing: $songInfo[title]
 })
 ```
 
-#### Example for next playing song:
+### Example for next playing song:
 
 ```javascript
 bot.command({
@@ -30,7 +30,7 @@ Next Playing: $songInfo[title;1]
 })
 ```
 
-### Properties:
+## Properties:
 
 * title - Song Title
 * description - Description of the song's YouTube video.

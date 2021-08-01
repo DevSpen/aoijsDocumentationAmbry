@@ -9,7 +9,7 @@ description: >-
 
 This callback allows the bot to log every time a user gets unbanned form a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.banRemoveCommand({ //command
@@ -18,7 +18,7 @@ code: `your code` //your code
 })
 ```
 
-#### Example Commands:
+## Example Commands:
 
 ```javascript
 bot.banRemoveCommand({ 

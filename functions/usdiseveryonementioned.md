@@ -8,7 +8,7 @@ With this function you can check if `@everyone` was mentioned in the command's m
 
 Raw usage: `$isEveryoneMentioned`
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

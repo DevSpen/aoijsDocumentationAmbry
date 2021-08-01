@@ -2,7 +2,7 @@
 
 This function returns the given role's specified property
 
-#### Usage
+## Usage
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$role[roleID;property]`
 
-#### Options
+## Options
 
 * Role ID - The role the properties are base off of
 * Property - The property from the &lt;role&gt;
 
-#### Available Properties
+## Available Properties
 
 * name - Role's name
 * mention - Role's mention
@@ -51,6 +51,4 @@ $role[$mentionedRoles[1];name]
 `
 })
 ```
-
-
 

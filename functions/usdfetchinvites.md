@@ -2,7 +2,7 @@
 
 This function fetches and loops over every invite executing awaited commands
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -12,11 +12,11 @@ This function has 1 required field
 
 Raw Usage: `$fetchInvites[awaitedCommand1;awaitedCommand2;...]`
 
-#### Options
+## Options
 
 * Awaited Command\(s\) - The awaited command\(s\) we're executing
 
-#### Usable Functions
+## Usable Functions
 
 * [$inviteUses ](usdinviteuses.md)
 * [$inviteURL ](usdinviteurl.md)
@@ -26,7 +26,7 @@ Raw Usage: `$fetchInvites[awaitedCommand1;awaitedCommand2;...]`
 * [$inviteUserID ](usdinviteuserid.md)
 * [$inviteMaxUses](usdinvitemaxuses.md)
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

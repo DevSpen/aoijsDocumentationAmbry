@@ -6,7 +6,7 @@ description: Loops for every guild the bot is in executing an awaitedCommand
 
 This function creates a loop over every server the bot is in
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `$forEachGuild[awaitedCommand1;awaitedCommand2;...]`
 
-#### Options
+## Options
 
 * Awaited Command\(s\) - The awaited command\(s\) we're executing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

@@ -6,7 +6,7 @@ description: Set a cooldown for a command
 
 This function sets a cooldown to the current command
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,13 +15,13 @@ This function has 2 fields
 
 Raw Usage: `$cooldown[time;error]`
 
-#### Options
+## Options
 
 * Time - The time of the cooldown
 * Error - The message when the cooldown is in affect
 * %time% - You can add this into the error message to show the remaining time left
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

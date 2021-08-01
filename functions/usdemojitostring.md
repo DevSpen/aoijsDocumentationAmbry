@@ -6,7 +6,7 @@ description: Returns the emoji the user reacted with
 
 The function returns the emoji the user reacted with
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

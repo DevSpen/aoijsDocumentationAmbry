@@ -2,7 +2,7 @@
 
 This function allows you to create a collection to use later.
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -10,11 +10,11 @@ This function has 1 field
 
 Raw usage: `$createCollection[name]`
 
-#### Options
+## Options
 
 * Name - The name of the collection
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

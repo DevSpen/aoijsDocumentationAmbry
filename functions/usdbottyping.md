@@ -6,7 +6,7 @@ description: Displays the bot as typing
 
 This function just displays the bot as 'Typing'
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,11 +14,11 @@ This function has 1 optional field
 
 Raw Usage: `$botTyping[time (Optional)]`
 
-#### Options
+## Options
 
 * Time - Set how long the bot is typing for
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

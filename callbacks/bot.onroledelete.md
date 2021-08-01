@@ -9,7 +9,7 @@ description: >-
 
 This callback triggers everytime a role gets deleted in a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.roleDeleteCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.roleDeleteCommand({ 
@@ -30,9 +30,9 @@ Old Name: $oldRole[name]
 })
 ```
 
-#### Options:
+## Options:
 
-You can use these functions [$oldRole\[\]](../functions/usdoldrole.md) with the options below to return old  role data:
+You can use these functions [$oldRole\[\]](../functions/usdoldrole.md) with the options below to return old role data:
 
 * `id` =&gt; The ID of the role
 * `name` "The name of the role

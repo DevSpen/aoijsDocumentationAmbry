@@ -16,7 +16,7 @@ $if[value1(!=/==/>=/<=/>/<)value2]
 
 ### $else
 
-Can be used to return a message  if the condition is false
+Can be used to return a message if the condition is false
 
 ### $endif
 
@@ -47,7 +47,6 @@ $else
 $endif`
 //This is your very simple if. All functions can be used 
 })
-
 ```
 
 Using $elseIf
@@ -84,6 +83,4 @@ $endif
 `
 })
 ```
-
-## 
 

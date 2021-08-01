@@ -8,7 +8,7 @@ description: >-
 
 This callback will allow the bot to log a message whenever it joins a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.botJoinCommand({//command
@@ -17,7 +17,7 @@ code: `Your code`//message sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.botJoinCommand({
@@ -36,7 +36,7 @@ channel: "$systemChannelID",
 code: `
 Hi i am Awesome Bot and I can do many things.
 `
- 
+
 })
 ```
 

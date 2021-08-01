@@ -6,7 +6,7 @@ description: Replaces "sample" to "new" from "text"
 
 This function allows you to replace text from the given text
 
-#### Fields
+## Fields
 
 This function has 3 required fields
 
@@ -17,14 +17,14 @@ This function has 3 required fields
 
 Raw Usage: `$replaceText[text;sample;new;howMany (optional)]`
 
-#### Options
+## Options
 
 * Text - The text in general
 * Sample - The text that's being replaced
 * New - The text that is replacing &lt;sample&gt;
 * How Many - How many times the text is being replaced
 
-#### Usage
+## Usage
 
 Without optional field
 

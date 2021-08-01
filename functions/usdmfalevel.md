@@ -2,17 +2,17 @@
 
 Returns the guild mfa level \(true or false\)
 
-#### Fields
+## Fields
 
 1. Guild ID \(Optional\)
 
 Raw usage: `$mfaLevel[Guild ID]`
 
-#### Options
+## Options
 
 * Guild ID - Guild's mfa level you want to check.
 
-#### Usage without optional field
+## Usage without optional field
 
 ```javascript
 bot.command({
@@ -21,7 +21,7 @@ bot.command({
 })
 ```
 
-#### Usage with optional field
+## Usage with optional field
 
 ```javascript
 bot.command({

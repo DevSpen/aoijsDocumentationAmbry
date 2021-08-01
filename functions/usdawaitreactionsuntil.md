@@ -2,7 +2,7 @@
 
 This function will make the bot reply when a user reacts with the given emoji in the certain amount of reactions
 
-#### Fields
+## Fields
 
 This function has 7 required fields
 
@@ -17,7 +17,7 @@ This function has 7 required fields
 
 Raw Usage: `$awaitReactionsUntil[channelID;messageID;userFilter;time;reaction1,reaction2,...;count1;count2;...awaitedCommand1,awaitedCommand2,...;error message (optional)]`
 
-#### Options
+## Options
 
 * Channel ID -The channel we're the message is
 * Message ID - The message we're using
@@ -28,7 +28,7 @@ Raw Usage: `$awaitReactionsUntil[channelID;messageID;userFilter;time;reaction1,r
 * Awaited Command\(s\) - The awaitedCommand name that will be executed
 * Error - The message when the time runs out
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -43,7 +43,7 @@ code: `Hi, 1️⃣ got 5 reactions!`
 }) //This will respond when the reaction count gets to 5
 ```
 
-#### Suffixes
+## Suffixes
 
 * s - Seconds
 * m - Minutes

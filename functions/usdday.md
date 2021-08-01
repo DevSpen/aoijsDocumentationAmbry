@@ -2,19 +2,19 @@
 
 This function returns the current day.
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
 1. Return Day of the Week \(Optional\)
 
-Raw usage: `$day[returnDayOfTheWeek (yes/no) (optional)]`  
+Raw usage: `$day[returnDayOfTheWeek (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * Return Day of the Week - Whether or not it returns the specified day - Example: Monday
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

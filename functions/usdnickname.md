@@ -17,5 +17,3 @@ code: `Your nickname is: $nickname[$authorID]`
 })
 ```
 
-
-

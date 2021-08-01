@@ -4,7 +4,7 @@ description: Grabs split Text value from $textSplit by given index
 
 # $splitText
 
-This function grabs  the value from the given index
+This function grabs the value from the given index
 
 ```javascript
 $splitText[index]

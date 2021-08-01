@@ -6,10 +6,10 @@ description: 'Discord API Intents, This is needed to Access Discord API'
 
 ## Gateway Intents
 
-Gateways are Discord's form of real-time communication over secure WebSockets. Clients will receive events and data over the gateway they are connected to and send data over the REST API.  
-  
-This will be needed for us to interact with the Discord API and the functions that are prepared to build your bot.  
-  
+Gateways are Discord's form of real-time communication over secure WebSockets. Clients will receive events and data over the gateway they are connected to and send data over the REST API.
+
+This will be needed for us to interact with the Discord API and the functions that are prepared to build your bot.
+
 You can enable this in the [Discord Developer Portal through your Bot Application](https://discord.com/developers/applications)
 
 ![Discord Gateway Intents](../../.gitbook/assets/screenshot_820.png)

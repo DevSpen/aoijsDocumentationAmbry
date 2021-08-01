@@ -10,5 +10,3 @@ This function is only useable in [bot.onRoleCreate](../callbacks/bot.onrolecreat
 
 {% page-ref page="../callbacks/bot.onroleupdate.md" %}
 
-
-

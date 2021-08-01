@@ -2,7 +2,7 @@
 
 This function returns the channel permission overwrites
 
-#### Fields
+## Fields
 
 This function has 3 optional fields
 
@@ -12,13 +12,13 @@ This function has 3 optional fields
 
 Raw usage: `$channelOverwrites[channelID (optional);properties (optional);separator (optional)]`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're getting the permissions from
 * Properties - The properties that'll be displayed 
 * Separator - To separate each permission
 
-#### Properties 
+## Properties
 
 * {type} - Channel Type
 * {mention} - Mention's the channel

@@ -14,5 +14,3 @@ This server have $serverBoostCount boosts!`
 })
 ```
 
-
-

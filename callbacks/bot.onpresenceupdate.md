@@ -2,7 +2,7 @@
 
 This callback is triggered whenever someone's presence is updated
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.presenceUpdateCommand({ //command
@@ -11,7 +11,7 @@ code: `your code` //Message that will be sent to <channel>
 })
 ```
 
-#### Example command:
+## Example command:
 
 ```javascript
 bot.presenceUpdateCommand({ 
@@ -22,7 +22,7 @@ Old Presence: $oldPresence[status]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use these functions [$oldPresence\[\]](../functions/usdoldpresence.md) with the options below to return old user data.
 

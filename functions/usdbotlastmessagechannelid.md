@@ -2,7 +2,7 @@
 
 This function will return the ID of the channel where the last message of the bot was sent.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

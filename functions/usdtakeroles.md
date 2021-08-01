@@ -17,5 +17,3 @@ code: `$takeRoles[$authorID;779354499865116673]`
 })
 ```
 
-
-

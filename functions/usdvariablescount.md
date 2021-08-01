@@ -6,7 +6,7 @@ description: Returns amount of bot variables the bot has.
 
 With this function you can check how many variables the bot has.
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

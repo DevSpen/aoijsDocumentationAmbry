@@ -6,7 +6,7 @@ description: Sets the author in an embed message and authorIcon if it's specifie
 
 This function allows you to add an 'author' to the embed message and an icon to the author if a URL is specified.
 
-#### Fields
+## Fields
 
 Responding to your question, `$author[]` has 3 properties.
 
@@ -16,7 +16,7 @@ Responding to your question, `$author[]` has 3 properties.
 
 Raw Usage: `$author[text;icon url;url (optional)]`
 
-#### Options
+## Options
 
 * Text - The author text
 * icon URL - The url of the image next to the text
@@ -26,7 +26,7 @@ Raw Usage: `$author[text;icon url;url (optional)]`
 The image URL needs to end with `.gif`, `.png` or `.jpg`
 {% endhint %}
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

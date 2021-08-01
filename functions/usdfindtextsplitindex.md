@@ -6,7 +6,7 @@ description: Finds the index of the splitted value
 
 This function finds the index/position of the value from $textSplit
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,11 +14,11 @@ This function has 1 field
 
 Raw Usage: `$findTextSplitIndex[value]`
 
-#### Options
+## Options
 
 * Value - The value we're using to find the index
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -28,8 +28,4 @@ $textSplit[s/f/a/c/g;/]`
 //$findTextSplitIndex would return '2'
 })
 ```
-
-
-
-
 

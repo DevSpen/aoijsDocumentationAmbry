@@ -6,7 +6,7 @@ description: Gets a global variable value
 
 This function returns the value of the given variable everyone shares
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -14,11 +14,11 @@ This function has 1 required field
 
 Raw Usage: `$getServerVar[variable]`
 
-#### Options
+## Options
 
 * Variable - The variable value we're getting for all the users
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

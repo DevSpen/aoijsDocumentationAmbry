@@ -2,7 +2,7 @@
 
 This function will return true or false depending if the link is an image or not.
 
-#### Fields
+## Fields
 
 This function has 1 required field.
 
@@ -10,11 +10,11 @@ This function has 1 required field.
 
 Raw usage: `$isValidImageLink[URL]`
 
-#### Options
+## Options
 
 * URL - The link you want to check.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

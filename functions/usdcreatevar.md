@@ -2,7 +2,7 @@
 
 This function creates variable\(s\) that can be used later
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -11,12 +11,12 @@ This function has 1 required field
 
 Raw Usage: `$createVar[varName:varValue;varName:varValue (optional);...]`
 
-#### Options
+## Options
 
 * Var Name - The name of the variable
 * Var Value - The default value of the variable
 
-#### Usage
+## Usage
 
 Without optional fields
 

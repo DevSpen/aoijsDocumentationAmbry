@@ -2,7 +2,7 @@
 
 This function gets a value of the specified key from [$let](usdlet.md)
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -10,11 +10,11 @@ This function has 1 field
 
 Raw Usage: `$get[key]`
 
-#### Options
+## Options
 
 * Key - The key we're getting for the value assigned to it
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

@@ -26,7 +26,7 @@ Open Source for the Community ❤️
 
 ## ⚒ Contributing
 
-Please read [Contributing](https://github.com/aoijs/aoi.js/blob/master/.github/CONTRIBUTING.md)
+Want to contribute to Aoi.JS? Read [Contributing](https://github.com/aoijs/aoi.js/blob/master/.github/CONTRIBUTING.md) for more info.
 
 {% page-ref page="guide/begin/" %}
 

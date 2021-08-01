@@ -10,5 +10,3 @@ This function is only useable in the bot.onMemberUpdate callback or else it won'
 
 {% page-ref page="../callbacks/bot.onmemberupdate.md" %}
 
-
-

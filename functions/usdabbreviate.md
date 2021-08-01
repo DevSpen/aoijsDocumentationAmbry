@@ -2,7 +2,7 @@
 
 This function abbreviates large numbers
 
-#### Usage
+## Usage
 
 This function has 1 field
 
@@ -10,11 +10,11 @@ This function has 1 field
 
 Raw Usage: `$abbreviate[number]`
 
-#### Options
+## Options
 
 * Number - The number the function would abbreviate
 
-#### Abbreviations
+## Abbreviations
 
 * k - thousands
 * m - millions

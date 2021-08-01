@@ -8,7 +8,7 @@ description: >-
 
 This channel returns the current channel or the specified channel's ID
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -16,11 +16,11 @@ This function has 1 field
 
 Raw Usage: `$channelID[channel Name]`
 
-#### Options
+## Options
 
 * Channel Name - The channel name we're getting the channel id from
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -33,6 +33,4 @@ name: "channelID",
 code: `$channelID` //Gets the channel ID where the comamnd was ran in
 })
 ```
-
-
 

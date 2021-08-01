@@ -6,7 +6,7 @@ description: Returns the channel's topic
 
 With this function you will be able to collect channel data, specifically the topic of the channel.
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,11 +14,11 @@ This function has 1 field
 
 Raw Usage: `$channelTopic[channelID]`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're getting the topic from
 
-#### Usage
+## Usage
 
 Get the topic of the current channel
 

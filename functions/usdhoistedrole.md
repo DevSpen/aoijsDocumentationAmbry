@@ -2,7 +2,7 @@
 
 This function returns the highest hoisted role's ID the given user has
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -10,11 +10,11 @@ This function has 1 optional field
 
 Raw Usage: `$hoistedRole[userID (optional)]`
 
-#### Options
+## Options
 
 * User ID - The user we're getting the role from
 
-#### Usage
+## Usage
 
 Without optional fields
 

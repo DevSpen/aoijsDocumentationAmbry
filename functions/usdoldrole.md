@@ -6,5 +6,3 @@ This function is only useable in bot.roleUpdateCommand\(\) and bot.onRoleDeleteC
 
 {% page-ref page="../callbacks/bot.onroledelete.md" %}
 
-
-

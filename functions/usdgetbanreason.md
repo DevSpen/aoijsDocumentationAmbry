@@ -1,8 +1,8 @@
 # $getBanReason
 
-This function gets the reason of the ban for the specified user 
+This function gets the reason of the ban for the specified user
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -11,12 +11,12 @@ This function has 1 required field
 
 Raw Usage: `$getBanReason[userID;guildID (optional)]`
 
-#### Options
+## Options
 
 * User ID - The user we're getting the reason for
 * Guild ID - The guild we're the user was banned
 
-#### Usage
+## Usage
 
 Without optional field
 

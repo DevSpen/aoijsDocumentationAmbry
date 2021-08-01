@@ -2,7 +2,7 @@
 
 This function returns whether or not the content is a valid emoji, Returns Boolean
 
-#### Usage
+## Usage
 
 This function has 1 field
 
@@ -10,7 +10,7 @@ This function has 1 field
 
 Raw Usage: `$isEmoji[content]`
 
-#### Options
+## Options
 
 * Content - The content that is checked to see if it's an emoji or not
 

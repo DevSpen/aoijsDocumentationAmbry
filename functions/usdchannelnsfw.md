@@ -8,7 +8,7 @@ description: >-
 
 With this function you can show some information about the channel you want, this specific function will return true or false depending on whether the channel is marked as NSFW.
 
-#### Usage
+## Usage
 
 This function has 1 field
 
@@ -16,7 +16,7 @@ This function has 1 field
 
 Raw Usage: `$channelNSFW[channelID (optional)`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're checking to see if its NSFW or not
 

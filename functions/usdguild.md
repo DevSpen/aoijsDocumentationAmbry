@@ -2,7 +2,7 @@
 
 This function returns the given guild's specified property
 
-#### Usage
+## Usage
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$guild[guildID;property]`
 
-####  Options
+## Options
 
 * Guild ID - The guild the property is based on
 * Property - The guild's property you want to get
 
-#### Available Properties
+## Available Properties
 
 * name - Guild's Name 
 * id - Guild's ID

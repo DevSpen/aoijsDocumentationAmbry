@@ -2,7 +2,7 @@
 
 This function will find multiple members from the current guild through a given query
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -13,20 +13,20 @@ This function has 1 required field
 
 Raw Usage: `$findMembers[query;limit (optional);properties (optional);getID (optional)]`
 
-#### Options
+## Options
 
 * Query - The query to list possible members
 * Limit - The limit of the member list
 * Properties - The properties showing the list
 * Get ID -
 
-#### Properties
+## Properties
 
 * position - The \# position of the member 
 * username - The user's username
 * id - The user's id
 
-#### Usage
+## Usage
 
 Without optional fields
 

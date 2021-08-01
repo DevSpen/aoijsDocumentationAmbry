@@ -24,8 +24,6 @@ $onlyIf\[value&gt;=value2;error message\]
 
 $onlyIf\[value&lt;=value2;error message\]
 
-
-
 ```javascript
 bot.command({
 name: "special",

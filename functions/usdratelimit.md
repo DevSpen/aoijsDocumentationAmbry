@@ -8,5 +8,3 @@ This function is used to hold data about a rate limit in the bot.onRateLimit\(\)
 
 {% page-ref page="../callbacks/bot.onratelimit.md" %}
 
-
-

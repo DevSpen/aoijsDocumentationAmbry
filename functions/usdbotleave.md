@@ -6,7 +6,7 @@ description: Forces the bot to leave the specified server.
 
 This function makes the bot leave the current / specified server
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,7 +14,7 @@ This function has 1 optional field
 
 Raw Usage: `$botLeave[serverID (optional)]`
 
-#### Options
+## Options
 
 * Server ID - The server of which the bot is going to leave from
 
@@ -22,7 +22,7 @@ Raw Usage: `$botLeave[serverID (optional)]`
 Using this function will make your bot leave the specified server, we recommend using $onlyForIDs\[Your ID;Only for my owner\]
 {% endhint %}
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -35,6 +35,4 @@ bot.command({
 
 // I just used my ID but you can replace it with yours.
 ```
-
-
 

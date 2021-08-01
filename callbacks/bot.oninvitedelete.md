@@ -9,7 +9,7 @@ description: >-
 
 This callback allows the bot to log every time an invite is deleted
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.inviteDeleteCommand({ // command
@@ -18,7 +18,7 @@ bot.inviteDeleteCommand({ // command
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.inviteDeleteCommand({ 
@@ -29,7 +29,7 @@ URL: $inviteURL
 Uses: $inviteUses
 Channel ID: $inviteChannelID
     ` 
-}) 
+})
 ```
 
 Here are the functions you can use in this callback:

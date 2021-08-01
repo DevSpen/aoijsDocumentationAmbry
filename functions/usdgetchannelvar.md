@@ -6,7 +6,7 @@ description: Get the Channel Value.
 
 This function gets the given variable value for the current or specified channel
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$getChannelVar[variable;channelID (optional)]`
 
-#### Options
+## Options
 
 * Variable - The variable value we're getting for the &lt;channel&gt;
 * Channel ID - The channel's variable value we're getting
 
-#### Usage
+## Usage
 
 Current Channel's Variable Value
 

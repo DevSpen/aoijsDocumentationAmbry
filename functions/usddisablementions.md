@@ -6,7 +6,7 @@ description: 'Disables, @ mentioned, and replaces with the Username.'
 
 This function removes any mention and replaces with name instead
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

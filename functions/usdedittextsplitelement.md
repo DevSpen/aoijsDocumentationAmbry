@@ -6,7 +6,7 @@ description: Edits the value from the given index
 
 This function edits a value in $textSplit and replaces it with a new value
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw Usage: `$editTextSplitElement[index;value]`
 
-#### Options
+## Options
 
 * Index - The position of the element we're editing
 * Value - The new value of the element
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

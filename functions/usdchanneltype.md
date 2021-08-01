@@ -8,14 +8,14 @@ This function will show you the type of the specified channel.
 
 Raw Usage: `$channelType[channelID (optional)]`
 
-#### Types:
+## Types:
 
 * `text` =&gt; normal text channel
 * `voice` =&gt; voice channel
 * `category` =&gt; category
 * `news` =&gt; announcement channel
 
-#### Example Commands:
+## Example Commands:
 
 Get the channel type of the current channel:
 

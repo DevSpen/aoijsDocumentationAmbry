@@ -2,7 +2,7 @@
 
 This function resolves an emoji's id
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -10,14 +10,14 @@ This function has 1 field
 
 Raw Usage: `$resolveEmojiID[emoji string/name/id]`
 
-#### Options
+## Options
 
 * Emoji - The emoji we're resolving
   * string - The emoji itself
   * name - The emoji's name
   * id - The emoji's id
 
-#### Usage
+## Usage
 
 Pre-specified emoji
 

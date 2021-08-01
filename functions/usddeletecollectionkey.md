@@ -6,7 +6,7 @@ description: Deletes a key from given collection name.
 
 This function will allow you to delete an key \(Property\) from a previous created collection.
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw usage: `$deleteCollectionKey[Collection name;key]`
 
-#### Options
+## Options
 
 * Collection Name - The collection where the &lt;key&gt; belongs
 * Key - The key we're deleting
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -31,7 +31,7 @@ bot.command({
 /*
     Using a collection created at: 
     https://aoi.leref.ga/functions/usdcreatecollection
-    
+
     And a key created at:
     https://aoi.leref.ga/functions/usdsetcollectionkey
 */

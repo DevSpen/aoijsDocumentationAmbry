@@ -4,7 +4,7 @@ description: Allows command to be ran in only NSFW marked channel
 
 # $onlyNSFW
 
-This function only allows the command to be ran in NSFW marked channels 
+This function only allows the command to be ran in NSFW marked channels
 
 ```text
 $onlyNSFW[error when ran in non-nsfw channel]

@@ -2,7 +2,7 @@
 
 This function converts MS time into a readable duration
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -12,13 +12,13 @@ This function has 1 required field
 
 Raw Usage: `$humanizeMS[ms;limit (optional);separator (optional)]`
 
-#### Options
+## Options
 
 * MS - The duration in ms we're converting
 * Limit - Limit of display for the duration
 * Separator - The separator for each duration
 
-#### Usage
+## Usage
 
 Without the optional fields
 

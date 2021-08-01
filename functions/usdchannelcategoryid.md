@@ -6,7 +6,7 @@ description: Returns the channel category ID
 
 This function will display the category ID the current/specified channel is in
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,11 +14,11 @@ This function has 1 optional field
 
 Raw Usage: `$channelCategoryID[channel ID (Optional)]`
 
-#### Options
+## Options
 
 * Channel ID - The channel of which we are getting the category id from
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

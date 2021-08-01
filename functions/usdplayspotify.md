@@ -25,5 +25,3 @@ code: `$playSpotify[https://open.spotify.com/playlist/384FPCNhnabINX2d8SyrgT?si=
 })
 ```
 
-
-

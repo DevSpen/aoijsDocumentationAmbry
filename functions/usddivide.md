@@ -6,7 +6,7 @@ description: 'Divide the number, in the args.'
 
 This function divides the given args
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -16,12 +16,12 @@ This function has 2 required fields
 
 Raw Usage: `$divide[number1;number2;etc]`
 
-#### Options
+## Options
 
 * Number 1 - The first number we're dividing
 * Number 2 - The second number we're dividing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

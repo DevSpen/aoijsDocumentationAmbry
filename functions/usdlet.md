@@ -2,7 +2,7 @@
 
 This function allows you to assign a key to a value. This is identical to $addObjectProperty but it's easier and doesn't require $createObject
 
-#### Fields
+## Fields
 
 This function has 2 fields.
 
@@ -11,12 +11,12 @@ This function has 2 fields.
 
 Raw Usage: `$let[key;value]`
 
-#### Options
+## Options
 
 * Key - The key that will be called with [$get](usdget.md)
 * Value - The value assigned to the &lt;key&gt;
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

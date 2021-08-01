@@ -2,7 +2,7 @@
 
 This function executes a command in the console
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -10,11 +10,11 @@ This function has 1 field
 
 Raw Usage: `$exec[command]`
 
-#### Options
+## Options
 
 * Command - The command that will be executed in the console
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

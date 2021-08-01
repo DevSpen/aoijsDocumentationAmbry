@@ -6,7 +6,7 @@ description: Returns the bots invite
 
 This function returns your bots invite
 
-#### Fields
+## Fields
 
 This function has multiple optional fields
 
@@ -14,13 +14,13 @@ This function has multiple optional fields
 
 Raw Usage: `$getBotInvite[permission1 (optional);permission2 (optional);etc]`
 
-#### Options
+## Options
 
 * Permissions - The permissions that are given to the bot when joining a server
 
 Find all available permissions [here](../guide/begin/permissions.md)
 
-#### Usage
+## Usage
 
 Without optional fields
 

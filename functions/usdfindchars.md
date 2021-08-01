@@ -2,19 +2,19 @@
 
 This function filters out characters from the given &lt;string&gt; and returns them alone
 
-#### Fields
+## Fields
 
-This function  has 1 field
+This function has 1 field
 
 1. String \(Required\)
 
 Raw Usage: `$findChars[string]`
 
-#### Options
+## Options
 
 * String - The text we're filtering
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

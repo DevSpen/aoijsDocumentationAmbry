@@ -6,7 +6,7 @@ description: Creates a webhook to the given channel ID
 
 This function creates a webhook that can be used later
 
-#### Fields
+## Fields
 
 This function has 4 required fields
 
@@ -16,9 +16,9 @@ This function has 4 required fields
 4. Return Webhook ID/Token \(Required\)
 5. Separator \(Optional\)
 
-Raw Usage:  `$createWebhook[channel ID;name;avatar url;returnWebhook ID/Token (yes/no);separator (optional)]`
+Raw Usage: `$createWebhook[channel ID;name;avatar url;returnWebhook ID/Token (yes/no);separator (optional)]`
 
-#### Options
+## Options
 
 * Channel ID - The channel where the webhook is assigned to
 * Name - The name of the webhook
@@ -26,7 +26,7 @@ Raw Usage:  `$createWebhook[channel ID;name;avatar url;returnWebhook ID/Token (y
 * Return Webhook Info - Whether or not the function returns the info of the newly created webhook
 * Separator - The symbol/letter that separates the webhook id and token
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

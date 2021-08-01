@@ -6,7 +6,7 @@ description: Loop over every guild channel in the guild executing an awaited com
 
 This function creates a loop for every channel in the current guild
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `$forEachGuildChannel[awaitedCommand1;awaitedCommand2;...]`
 
-#### Options
+## Options
 
 * Awaited Command\(s\) - The awaited command\(s\) we're executing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

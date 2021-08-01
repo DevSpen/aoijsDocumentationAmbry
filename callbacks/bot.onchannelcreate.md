@@ -9,7 +9,7 @@ description: >-
 
 This command triggers every time a channel gets created on a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.channelCreateCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.channelCreateCommand({ 
@@ -30,7 +30,7 @@ $newChannel[name]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use the function [$newChannel\[\] ](../functions/usdnewchannel.md)with the options below to return new channel data:
 

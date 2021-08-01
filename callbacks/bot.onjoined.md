@@ -9,7 +9,7 @@ description: >-
 
 Callback that triggers every time a user joins a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.joinCommand({ //command
@@ -22,7 +22,7 @@ code: `your code` //Message sent to <channel>
 Make sure the &lt;channel&gt; is in the server. So recommended to use server variables \(if your bot isn't for 1 server\)
 {% endhint %}
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.joinCommand({ 
@@ -35,7 +35,7 @@ Code Breakdown
 $serverName - The name of the server the user joined
 $username - The user who joined the server
 */
-}) 
+})
 ```
 
 {% hint style="warning" %}

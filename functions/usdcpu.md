@@ -6,7 +6,7 @@ description: Returns the CPU Usage
 
 This function returns the cpu in percentage
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

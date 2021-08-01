@@ -27,6 +27,6 @@ Propety Explanations:
 bot.command({
 name: "inviteInfo".
 code: `$getInviteInfo[dbdjs;uses]` //Gets how many people joined through the <invite_code>
-}) 
+})
 ```
 

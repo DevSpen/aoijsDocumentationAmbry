@@ -9,7 +9,7 @@ description: >-
 
 This callback allows the bot to log any edited messages to the given channel
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.updateCommand({ //the command 
@@ -18,7 +18,7 @@ bot.updateCommand({ //the command
 })
 ```
 
-#### Example command:
+## Example command:
 
 ```javascript
 bot.updateCommand({

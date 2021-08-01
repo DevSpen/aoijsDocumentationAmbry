@@ -8,9 +8,9 @@ description: >-
 
 This function returns the first matching position of the given character in the given text.
 
-Raw usage: `$indexOf[text;character]` 
+Raw usage: `$indexOf[text;character]`
 
-### Example Command: 
+## Example Command:
 
 The example below returns `3` because the first `l` in `Hello` is at position 3.
 

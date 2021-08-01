@@ -2,7 +2,7 @@
 
 This function returns a list of permissions the specified user has for the current or specified channel ID
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -11,12 +11,12 @@ This function has 1 required field
 
 Raw Usage: `$channelPermissionsFor[channelID (optional);userID]`
 
-#### Options
+## Options
 
 * Channel ID - The channel the permissions are based off of
 * User ID - The user the permissions are based off of
 
-#### Usage
+## Usage
 
 Usage without optional field
 

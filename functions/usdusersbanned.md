@@ -10,7 +10,7 @@ Default return are usernames of the banned users. The default separator is `,`
 
 Raw usage:`$usersBanned[id/mention/username (optional);separator (optional)]`
 
-#### Example:
+## Example:
 
 ```text
 bot.command({
@@ -24,7 +24,7 @@ $usersBanned[username;, ]
 ```
 
 {% hint style="info" %}
-Keep the 2,000 character limit in mind. 
+Keep the 2,000 character limit in mind.
 
 If your server has many bans, use functions like [$cropText](usdcroptext.md) to stop after 2,000 chars or [$createFile](usdcreatefile.md) to send the full list in a text file.
 {% endhint %}

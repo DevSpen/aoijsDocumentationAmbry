@@ -4,7 +4,7 @@ description: Gets specified user ID's username and discriminator easier
 
 # $userTag
 
-This function returns the users username AND tag 
+This function returns the users username AND tag
 
 ```text
 $userTag[userID (optional)]

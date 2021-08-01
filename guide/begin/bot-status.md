@@ -4,7 +4,7 @@ description: How to setup a Bot Status
 
 # Bot Status
 
-### How do I set a Bot Status?
+## How do I set a Bot Status?
 
 It's very simple!
 
@@ -38,7 +38,7 @@ bot.status({
 })
 ```
 
-### Different Types:
+## Different Types:
 
 * PLAYING
 * WATCHING
@@ -46,7 +46,7 @@ bot.status({
 * STREAMING
 * COMPETING
 
-### Bots Discord Status:
+## Bots Discord Status:
 
 {% hint style="info" %}
 If you want to change the bot's discord status use the following
@@ -61,14 +61,14 @@ bot.status({
 })
 ```
 
-### Different Statuses:
+## Different Statuses:
 
 * idle
 * dnd
 * online
 * invisible
 
-### Streaming URL:
+## Streaming URL:
 
 {% hint style="info" %}
 Streaming-Status supports YouTube-Video-URL or Twitch-Channel-URLs.
@@ -84,7 +84,7 @@ url: "Enter URL"
 })
 ```
 
-### Mobile Status
+## Mobile Status
 
 ```javascript
 const bot = new Aoijs.Bot({

@@ -8,14 +8,14 @@ With this function you can check the size of the given file in your bot's host.
 
 Raw usage: `$fileSize[file path;unit]`
 
-#### Units:
+## Units:
 
 * `b` =&gt; bytes
 * `kb` =&gt; kilobytes \(1,000 bytes\)
 * `mb` =&gt; megabytes \(1,000,000 bytes\)
 * `gb` =&gt; gigabytes \(1,000,000,000 bytes\)
 
-#### Example Command:
+## Example Command:
 
 Using a file from the main folder to return it's size in kilobytes:
 

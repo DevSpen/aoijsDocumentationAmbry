@@ -10,7 +10,7 @@ This function takes care of automatically adding an emoji to the server using th
 The URL of the original image must be under 256kb in size.
 {% endhint %}
 
-#### Fields:
+## Fields:
 
 This function has 2 properties who are required and another 1 optional.  
 The order it's the next:
@@ -22,7 +22,7 @@ The order it's the next:
 
 Raw Usage: `$addEmoji[url;name;returnEmoji (yes/no)(optional);roleID1;roleID2;...]`
 
-#### Options:
+## Options:
 
 * `URL` - The url of the image/gif that's being converted to an emoji
 * `Name` =&gt; The name of the emoji
@@ -31,7 +31,7 @@ Raw Usage: `$addEmoji[url;name;returnEmoji (yes/no)(optional);roleID1;roleID2;..
 
 An example of the use should be the next:
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -40,7 +40,7 @@ bot.command({
 });
 ```
 
-#### Example result:
+## Example result:
 
 ![](../.gitbook/assets/mtt45fdb8q.png)
 

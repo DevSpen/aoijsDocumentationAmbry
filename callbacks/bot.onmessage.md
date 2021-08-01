@@ -40,5 +40,3 @@ bot.onMessage({
 bot.onMessage\(\) is necessary to make your bot work
 {% endhint %}
 
-
-

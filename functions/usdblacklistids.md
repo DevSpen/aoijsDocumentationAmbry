@@ -6,7 +6,7 @@ description: Blocks the specified IDs from running the command.
 
 This function will allow that the commands cannot be executed by certain users, you must indicate them by their user ID.
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -17,12 +17,12 @@ This function has 2 required fields
 
 Raw Usage: `$blackListIDs[userID;userID2;...;error message]`
 
-#### Options
+## Options
 
 * UserID - The user\(s\) we are blacklisting from the command
 * Error - The error message when a blacklisted user runs the command
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

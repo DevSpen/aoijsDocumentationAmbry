@@ -8,13 +8,13 @@ description: A variable value that will be saved to a channel
 Make sure you've already created the variable
 {% endhint %}
 
-### Setting the channel variable
+## Setting the channel variable
 
 ```text
 $setChannelVar[variable;value;channelID (optional)]
 ```
 
-### Retrieving the variable value
+## Retrieving the variable value
 
 ```text
 $getChannelVar[variable;channelID (optional)]

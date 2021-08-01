@@ -6,7 +6,7 @@ description: DM a user ID.
 
 This function DMs the given user via ID
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,11 +14,11 @@ This function has 1 optional field
 
 Raw Usage: `$dm[userID (optional)]`
 
-#### Options
+## Options
 
 * User ID - The user we're dming
 
-#### Usage
+## Usage
 
 DMing the author
 

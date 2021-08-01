@@ -4,7 +4,7 @@ description: Available functions for Music using Aoi.JS
 
 # Music Functions
 
-### A list of available Music Functions:
+## A list of available Music Functions:
 
 * [$playSong](../../functions/usdplaysong.md)
 * [$playSpotify](../../functions/usdplayspotify.md)

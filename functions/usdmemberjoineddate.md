@@ -21,5 +21,3 @@ date - Thu Jan 17 2019 21:09:19 GMT+0000 (Greenwich Mean Time)
 })
 ```
 
-
-

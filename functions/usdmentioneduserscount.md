@@ -8,7 +8,7 @@ With this function you can check how many user mentions in the command's message
 
 Raw usage: `$mentionedUsersCount`
 
-#### Example Commnd:
+## Example Commnd:
 
 ```text
 bot.command({

@@ -2,19 +2,19 @@
 
 This function concatenates the text with the given separator
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
 1. Text \(Required\)
 2. Separator \(Required\)
 
-#### Options
+## Options
 
 * Text - The text we're concatenating
 * Separator - The separator separating each value
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

@@ -23,5 +23,3 @@ Example of what bot would return:
 News, Community, Welcome Screen Enabled
 {% endhint %}
 
-
-

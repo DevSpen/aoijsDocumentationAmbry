@@ -18,7 +18,5 @@ $suppressErrors[Theres something wrong with this code]`
 })
 ```
 
-
-
 From 1.4.0 update, new subfunction, `{error}`has been added. This will return any errors with your custom error message
 

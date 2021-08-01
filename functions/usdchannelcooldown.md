@@ -2,7 +2,7 @@
 
 This function sets a cooldown for the current channel
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$channelCooldown[time;error message]`
 
-#### Options
+## Options
 
 * time - How long the cooldown will last
 * error - The error message that will appear when the cooldown hasn't finished
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

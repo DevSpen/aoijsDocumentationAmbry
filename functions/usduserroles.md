@@ -18,5 +18,3 @@ code: `Your Roles: $userRoles[$authorID;names]`
 })
 ```
 
-
-

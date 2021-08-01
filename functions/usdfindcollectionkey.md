@@ -2,7 +2,7 @@
 
 This function will allow you to find certain key \(Property\) inside a previous created collection.
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -12,13 +12,13 @@ This function has 2 required fields
 
 Raw usage: `$findCollectionKey[Collection name;key value;accurate (yes/no) (Optional)]`
 
-#### Options
+## Options
 
 1. Collection Name - The collection we're finding the key in
 2. Key Value - The value of the key we're finding
 3. Accurate - Whether or not the result will be dead accurate
 
-#### Usage
+## Usage
 
 Without optional field
 

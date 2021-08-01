@@ -9,16 +9,16 @@ description: >-
 
 This callback logs _**every time**_ a user un-reacts to a message
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.reactionRemoveCommand({ //command
 channel: "channel id", //channel where it logs
 code: `your code` // Message that will be sent to <channel>
-}) 
+})
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.reactionRemoveCommand({
@@ -26,12 +26,12 @@ channel: "772414449839636490",
 code: `
 $username has unreacted with $emojiToString
 `
-}) 
+})
 ```
 
 ![Here&apos;s an example](../.gitbook/assets/image%20%2840%29.png)
 
-#### Functions:
+## Functions:
 
 * [$emojiToString](../functions/usdemojitostring.md) =&gt; the exactly emoji itself, either default emoji e.g. `🎉` or `<:emojiname:emojiID>` style. 
 * [$emojiName ](../functions/usdemojiname.md)=&gt; the name of the emoji the user reacted with
@@ -43,6 +43,6 @@ $username has unreacted with $emojiToString
 * [$username](../functions/usdusername.md) =&gt; the username of the user that reacted
 
 {% hint style="info" %}
-You can use functions like $onlyForChannels or the following functions inside an[ $onlyIf\[\]](../functions/usdonlyif.md) limiter at the bottom of the code to limit your code to specific reactions etc: 
+You can use functions like $onlyForChannels or the following functions inside an[ $onlyIf\[\]](../functions/usdonlyif.md) limiter at the bottom of the code to limit your code to specific reactions etc:
 {% endhint %}
 

@@ -6,7 +6,7 @@ description: 'Find any users, with their username, this is Global.'
 
 This function returns the user ID of the given user. Yes/No will determine if function returns current author id \(yes\) or undefined \(no\) if no match was found. Default is yes
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$findUser[user;returnCurrentUser (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * User - The user we're finding
 * Return Current User - Whether or not the author's id will be returned if user not found
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

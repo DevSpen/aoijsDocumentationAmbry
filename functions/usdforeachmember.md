@@ -6,7 +6,7 @@ description: Loops for every cached guild member executing awaited commands
 
 This function creates a loop for every user thats' in the current guild
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `$forEachMember[awaitedCommand1;awaitedCommand2;...]`
 
-#### Options
+## Options
 
 * Awaited Command\(s\) - The awaited command\(s\) we're executing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

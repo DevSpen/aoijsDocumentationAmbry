@@ -6,7 +6,7 @@ description: Returns Node.js version.
 
 This function returns the current Node.js verion the server is using.
 
-#### Example Command:
+## Example Command:
 
 The function would return v12.22.1 as example.
 

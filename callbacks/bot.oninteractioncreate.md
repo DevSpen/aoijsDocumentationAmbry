@@ -7,35 +7,14 @@ description: >-
 
 # bot.onInteractionCreate
 
-### Buttons
+## Buttons
 
-#### Usage
+### Usage
 
 ```javascript
 bot.interactionCommand({
 name: "Interaction name",
 prototype: "button",
-code: `Code here`
-})
-```
-
-#### Example Command:
-
-```javascript
-bot.interactionCommand({
-name: "hi",
-prototype: "button",
-code: `Whats up $username`
-})
-```
-
-### Slash commands
-
-#### Usage
-
-```javascript
-bot.interactionCommand({
-name: "Interaction name",
 code: `Code here`
 })
 ```
@@ -45,21 +24,42 @@ code: `Code here`
 ```javascript
 bot.interactionCommand({
 name: "hi",
+prototype: "button",
 code: `Whats up $username`
 })
 ```
 
-### Componets
+## Slash commands
 
-`$interactionReply[Plain message;embeds (leave blank if none);componets (optional);flags (optional);type (optional)]` 
+### Usage
 
- Use this to send a message when the interaction gets triggered
+```javascript
+bot.interactionCommand({
+name: "Interaction name",
+code: `Code here`
+})
+```
 
-`$interactionEdit[Plain message;embeds (leave blank if none);componets (leave bank if none)]` 
+## Example Command:
 
- Edits the Interaction Message from $interactionReply
+```javascript
+bot.interactionCommand({
+name: "hi",
+code: `Whats up $username`
+})
+```
 
-#### Example
+## Componets
+
+`$interactionReply[Plain message;embeds (leave blank if none);componets (optional);flags (optional);type (optional)]`
+
+Use this to send a message when the interaction gets triggered
+
+`$interactionEdit[Plain message;embeds (leave blank if none);componets (leave bank if none)]`
+
+Edits the Interaction Message from $interactionReply
+
+### Example
 
 ```javascript
 bot.interactionCommand({

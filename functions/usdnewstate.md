@@ -10,5 +10,3 @@ This function is only useable in the [bot.onVoiceStateUpdate\(\)](../callbacks/b
 
 {% page-ref page="../callbacks/bot.onvoicestateupdate.md" %}
 
-
-

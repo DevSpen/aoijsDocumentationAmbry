@@ -18,6 +18,5 @@ $textSplit[hi/bye/hello;/]
 `
 })
 // Removes hi and bye from the list of values in $textSplit completely
-
 ```
 

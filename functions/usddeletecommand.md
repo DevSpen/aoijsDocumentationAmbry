@@ -6,7 +6,7 @@ description: Deletes the user message
 
 This will deletes the user's message that triggered the command
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

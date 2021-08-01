@@ -2,7 +2,7 @@
 
 This function returns the mutual servers the bot and the specified user have
 
-#### Fields
+## Fields
 
 This function has 2 optional fields
 
@@ -11,12 +11,12 @@ This function has 2 optional fields
 
 Raw Usage: `$mutualServers[userID;separator (optional)]`
 
-#### Options
+## Options
 
 * User ID - The user we're getting mutual servers from
 * Separator - The symbol separating each server
 
-#### Usage
+## Usage
 
 Without optional fields
 

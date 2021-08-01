@@ -4,7 +4,7 @@ description: Return the system channel ID
 
 # $systemChannelID
 
-This function returns the id for the server's  system channel
+This function returns the id for the server's system channel
 
 ```text
 $systemChannelID[guild ID (optional)]

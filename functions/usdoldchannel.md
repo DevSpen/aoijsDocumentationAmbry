@@ -6,7 +6,7 @@ This function is only usable in [onChannelUpdate](../callbacks/bot.onchannelupda
 $oldChannel[option]
 ```
 
-### Options
+## Options
 
 * `id` - The ID of the channel 
 * `name` - The name of the channel 

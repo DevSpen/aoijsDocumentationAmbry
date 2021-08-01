@@ -6,7 +6,7 @@ description: 'Edit the Bot Message, in amount of intervals.'
 
 This function edits the message that the bot just sent
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -17,12 +17,12 @@ This function has 2 required fields
 
 Raw Usage: `$editIn[time;message;message...]`
 
-#### Options
+## Options
 
 * Time - The amount of time to edit the message
 * Message\(s\) - The message\(s\) we're editing the original message into
 
-#### Usage
+## Usage
 
 Editing the message once
 

@@ -146,7 +146,7 @@ Once you've clicked the button, you should fill out your desired variable inform
 
 ![](../../.gitbook/assets/image%20%2870%29.png)
 
-Now just hit 'Save Variable' 
+Now just hit 'Save Variable'
 
 #### Editing Variables
 

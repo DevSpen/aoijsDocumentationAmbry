@@ -8,7 +8,7 @@ With this function you can check how many channel mentions are in the command's 
 
 Raw usage: `$mentionedChannelsCount`
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

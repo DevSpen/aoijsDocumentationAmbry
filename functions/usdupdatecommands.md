@@ -6,7 +6,7 @@ description: This function updates all your commands in your command handler
 
 This function updates all your commands in your command handler
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

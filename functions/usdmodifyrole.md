@@ -25,5 +25,3 @@ $modifyRole[837765028031234098;Bot;700505]
 you can use `RANDOM` in the color field for a random role color 😉
 {% endhint %}
 
-
-

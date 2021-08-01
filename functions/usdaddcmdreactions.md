@@ -6,7 +6,7 @@ description: Adds a reaction to the message who triggered the command.
 
 This function will be in charge of adding the 'emojis' previously chosen in the message of the person who has activated the command.
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -17,11 +17,11 @@ This function has 1 required field
 
 Raw Usage: `$addCmdReactions[emoji1;emoji2;emoji3;...]`
 
-#### Options
+## Options
 
 * Emoji\(s\) - The emoji that is being reacted
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

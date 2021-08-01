@@ -13,5 +13,3 @@ code:`$randomUserID - A random user ID from this Guild`
 })
 ```
 
-
-

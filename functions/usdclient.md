@@ -8,7 +8,7 @@ With this command you can get information about the bot user itself.
 
 Raw usage: `$client[option]`
 
-#### Usable Options:
+## Usable Options:
 
 * `name` =&gt; returns bot's username
 * `id` =&gt; returns bot's user ID
@@ -28,7 +28,7 @@ Raw usage: `$client[option]`
 * `ownerid` =&gt; returns the ID of the bot's owner or the ID of the owner of the application's team the bot belongs to
 * `teamid` =&gt; returns the ID of the team the bot's application belongs to or the ownerID if bot has no team
 
-#### Example Usage:
+## Example Usage:
 
 ```text
 bot.command({

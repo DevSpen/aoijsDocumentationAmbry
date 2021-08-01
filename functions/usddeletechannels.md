@@ -6,7 +6,7 @@ description: Delete a channel or channels by using their IDs.
 
 This function deletes the specified channel\(s\)
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `deleteChannels[channel id;channel id;etc]`
 
-#### Options
+## Options
 
 * Channel ID\(s\) - The channels the bot is deleting
 
-#### Usage
+## Usage
 
 Deleting the mentioned channel
 

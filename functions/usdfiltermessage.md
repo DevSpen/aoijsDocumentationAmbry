@@ -6,7 +6,7 @@ description: Removes specified value from specified text
 
 This function filters and removes the given value from the given text
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -16,12 +16,12 @@ This function has 2 required fields
 
 Raw Usage: `$filterMessage[text;value1,value2,...]`
 
-#### Options
+## Options
 
 * Text - The text we're filtering from
 * Value\(s\) - The value\(s\) we're removing the text from
 
-#### Usage
+## Usage
 
 Filtering 1 word
 

@@ -6,7 +6,7 @@ description: Creates a new role
 
 This function allows the bot to create a new role in the current guild
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -21,7 +21,7 @@ This function has 1 required field
 
 Raw Usage: `$createRole[name;color (optional);mentionable (yes/no)(optional);hoisted (yes/no)(optional);position (optional);permission;permission;...]`
 
-#### Options
+## Options
 
 * Name - The name of the role
 * Color - The color of the role \(in hex\)
@@ -30,7 +30,7 @@ Raw Usage: `$createRole[name;color (optional);mentionable (yes/no)(optional);hoi
 * Position - The position of the role
 * Permissions \(1,2,3,etc\) - The allowed permissions for the role
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

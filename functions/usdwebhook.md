@@ -2,7 +2,7 @@
 
 This function returns the given webhook's specified property
 
-#### Usage
+## Usage
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$webhook[URL;property]`
 
-#### Options
+## Options
 
 * URL - The webhook's url the porperties are based off of
 * Property - The property of the &lt;webhook&gt;
 
-#### Available Properties
+## Available Properties
 
 * name - Webhook's name
 * id - Webhook's id

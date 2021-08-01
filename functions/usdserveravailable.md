@@ -2,7 +2,7 @@
 
 This function returns whether or not the specified server is available
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -10,11 +10,11 @@ This function has 1 optional field
 
 Raw Usage: `$serverAvailable[guildID (optional)]`
 
-#### Options
+## Options
 
 * Guild ID - The guild we're getting the info from
 
-#### Usage
+## Usage
 
 Without the optional field
 

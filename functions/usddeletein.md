@@ -6,19 +6,19 @@ description: Deletes bots message in the specified time
 
 This function deletes the bot's message in the specified time
 
-#### Fields
+## Fields
 
 This function has 1 field
 
 1. Time \(Required\)
 
-Raw Usage: `$deleteIn[time]` 
+Raw Usage: `$deleteIn[time]`
 
 Options
 
 * Time - The amount of time left until it deletes the bot message
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -28,7 +28,7 @@ $deleteIn[5s]`
 })
 ```
 
-#### Time Suffixes
+## Time Suffixes
 
 * s - Seconds
 * m - Minutes

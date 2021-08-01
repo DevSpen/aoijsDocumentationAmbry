@@ -6,7 +6,7 @@ description: Add reactions to the message the bot has send in the command.
 
 This function will be in charge of adding the 'emojis' previously chosen in the message sent by the bot once triggered the command.
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -17,11 +17,11 @@ This function has 1 required field
 
 Raw Usage: `$addReactions[emoji;emoji2;emoji3;...]`
 
-#### Options
+## Options
 
 * Emoji - The emoji of which will be reacted to
 
-#### Usage
+## Usage
 
 Singular Reaction
 
@@ -33,7 +33,6 @@ bot.command({
     Hi, take a flower
     `
 });
-
 ```
 
 Multiple Reactions

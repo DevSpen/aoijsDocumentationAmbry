@@ -6,7 +6,7 @@ description: Retrieve the discriminator of the User.
 
 This function returns the users discriminator
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,11 +14,11 @@ This function has 1 optional field
 
 Raw Usage: `$discriminator[userID (optional)]`
 
-#### Options
+## Options
 
 * User ID - The user we're getting the discriminator from
 
-#### Usage
+## Usage
 
 Getting the author's discrim
 

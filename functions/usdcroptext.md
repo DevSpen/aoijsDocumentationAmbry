@@ -2,7 +2,7 @@
 
 This function crops the given text
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -13,14 +13,14 @@ This function has 2 required fields
 
 Raw Usage: `$cropText[text;limit;charToSplit (optional);append (optional)]`
 
-#### Options
+## Options
 
 * Text - The text we're cropping
 * Limit - The max length of the cropped text
 * Char To Split-  The specified pivot to crop the text
 * Append - The text to append if text is longer than the limit
 
-#### Usage
+## Usage
 
 Without optional fields
 

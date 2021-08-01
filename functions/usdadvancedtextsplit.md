@@ -6,7 +6,7 @@ WARNING: This function is only recommended to use as advanced Aoi.js user becaus
 
 This function basically allows you to have multiple splits in 1 message
 
-#### Fields
+## Fields
 
 This function has 3 required fields
 
@@ -19,13 +19,13 @@ This function has 3 required fields
 
 Raw Usage: `$advancedTextSplit[text;separator;index;separator2;index2;...]`
 
-#### Options
+## Options
 
 * text - The text we are grabbing from
 * separator - The separator of the text which is used for the index
 * index - the position of the certain text we want to pull from &lt;text&gt; depending the &lt;separator&gt;
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

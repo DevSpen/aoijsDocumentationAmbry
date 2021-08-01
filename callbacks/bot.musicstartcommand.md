@@ -4,7 +4,7 @@ description: A command that gets executed everytime the bot starts playing a new
 
 # bot.musicStartCommand
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.musicStartCommand({ 
@@ -13,7 +13,7 @@ code: `your code` //Code
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 This command triggers whenever a new song starts to play. You can use[ $songInfo](../functions/usdsonginfo.md) in the code to show information about the new song. $channelID is where the play command was executed.
 
@@ -22,8 +22,5 @@ bot.musicStartCommand({
 channel: "$channelID", 
 code: `Now Playing: $songInfo[title] of $songInfo[publisher]` 
 })
-
 ```
-
-
 

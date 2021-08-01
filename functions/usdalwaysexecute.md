@@ -12,7 +12,7 @@ This function will allow the command to be triggered by **every** message a user
 Use this function wisely
 {% endhint %}
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

@@ -6,7 +6,7 @@ description: Gets server variable value
 
 This function gets the given variables value for the current or specified server
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$getServerVar[variable;serverID (optional)]`
 
-#### Options
+## Options
 
 * Variable - The variable value we're getting for the &lt;server&gt;
 * Server ID - The server's variable value we're getting
 
-#### Usage
+## Usage
 
 Current Server's Variable Value
 

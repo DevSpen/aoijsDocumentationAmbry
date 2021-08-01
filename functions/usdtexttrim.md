@@ -8,7 +8,7 @@ This function removes all useless spaces \(multiple spaces in a row\) from the g
 
 Raw usage: `$textTrim[text]`
 
-#### Example Command:
+## Example Command:
 
 If you use the example below, the bot would return `Hello, how are you?`
 

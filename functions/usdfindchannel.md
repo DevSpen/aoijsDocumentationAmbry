@@ -6,7 +6,7 @@ description: 'Retrieve the Channel ID, when writing the name of the Channel. (Gl
 
 This function returns the channel ID of the specified channel. Yes/No will determine if function returns current channel id \(yes\) or undefined \(no\) if no match was found. Default is yes
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$findChannel[channel;returnCurrentChannel (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * Channel - The channel we're finding. You can use name/id/mention
 * Return Current Channel ID - Returns current channel id if no channel found
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

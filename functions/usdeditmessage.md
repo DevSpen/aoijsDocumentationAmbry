@@ -6,7 +6,7 @@ description: 'You change a previous sent, message from the Bot.'
 
 This function edits the bot's message that has already been sent
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -16,13 +16,13 @@ This function has 2 required fields
 
 Raw Usage: `$editMessage[messageID;new message;channel ID (optional)]`
 
-#### Options
+## Options
 
 * Message ID - The message we're editing
 * Message - The new message that's replacing the old one
 * Channel ID - The channel where the message is
 
-#### Usage
+## Usage
 
 Without the optional field
 

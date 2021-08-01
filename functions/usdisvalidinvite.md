@@ -16,5 +16,3 @@ $isValidInvite[$message]`
 })
 ```
 
-
-

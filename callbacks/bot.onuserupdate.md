@@ -9,7 +9,7 @@ description: >-
 
 This callback triggers every time a user updates their profile.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.userUpdateCommand({ //command
@@ -18,7 +18,7 @@ code: `your code` //Message that will be sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.userUpdateCommand({ 
@@ -29,7 +29,7 @@ $oldUser[avatar]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use the functions [$oldUser\[\]](../functions/usdolduser.md) with the options below to return old user data.
 

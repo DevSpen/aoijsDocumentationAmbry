@@ -6,7 +6,7 @@ description: Closes a ticket
 
 This function closes a ticket/channel made by [$newTicket](usdnewticket.md)
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,11 +14,11 @@ This function has 1 field
 
 Raw Usage: `$closeTicket[error message]`
 
-#### Options
+## Options
 
 * Error Message - This will appear when the function has been ran in a non-ticket channel
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

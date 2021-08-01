@@ -6,7 +6,7 @@ description: Gets information on an embed
 
 This function gets the &lt;property&gt; of the embed
 
-#### Fields
+## Fields
 
 This function has 3 required fields.
 
@@ -16,13 +16,13 @@ This function has 3 required fields.
 
 Raw usage: `$getEmbed[Channel ID;Message ID;Property]`
 
-#### Options
+## Options
 
 * Channel ID - Channel Where the message is located.
 * Message ID - Message which you want to get the embed info.
 * Property \(type, title, description, url, color, timestamp, fields, fvalue, thumbnail, image, video, author, provider, footer, files, createdAt, hexColor, length\) - The embed property you want to get.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

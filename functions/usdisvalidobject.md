@@ -23,5 +23,3 @@ REMINDER! This function will only work if it's JSON Object
 {hello:"HI"} =&gt; Not JSON Object
 {% endhint %}
 
-
-

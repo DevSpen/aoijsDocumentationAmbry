@@ -2,7 +2,7 @@
 
 This function allows the bot to request a method from/to the given url
 
-#### Fields
+## Fields
 
 This function has 1 required fields
 
@@ -15,7 +15,7 @@ This function has 1 required fields
 
 Raw Usage: `$httpRequest[url;method (optional);body (optional);property (optional);error (optional);headerName:headerValue;headerName:headerValue (optional);...]`
 
-#### Options
+## Options
 
 * URL - The url we're requesting from/to
 * Method - The method we're using
@@ -24,12 +24,12 @@ Raw Usage: `$httpRequest[url;method (optional);body (optional);property (optiona
 * Error - The error message if the request failed
 * Header\(s\) - The request headers/values
 
-#### Methods
+## Methods
 
 * GET - Request data from a resource
 * POST - Send data to a server to create or update a resource
 
-#### Usage
+## Usage
 
 Without optional fields
 

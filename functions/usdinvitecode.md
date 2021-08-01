@@ -12,5 +12,3 @@ bot.inviteCreateCommand({
 bot.onInviteCreate()
 ```
 
-
-

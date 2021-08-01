@@ -2,7 +2,7 @@
 
 This function will disable any channel mentions and replace them with their name.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

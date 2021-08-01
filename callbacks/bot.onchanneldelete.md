@@ -9,7 +9,7 @@ description: >-
 
 This command gets triggered everytime a channel was deleted on a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.channelDeleteCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.channelDeleteCommand({ 
@@ -30,7 +30,7 @@ $oldChannel[name]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use the function [$oldChannel\[\]](../functions/usdoldchannel.md) with the options below to return old channel data:
 

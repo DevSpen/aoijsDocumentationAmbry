@@ -6,7 +6,7 @@ description: Returns the channel ID where the callback came from.
 
 This function will show you the ID where the provided callback was triggered.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.onMessageDelete();

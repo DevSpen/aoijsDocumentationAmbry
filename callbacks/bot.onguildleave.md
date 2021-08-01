@@ -8,7 +8,7 @@ description: >-
 
 This callback will allow the bot to log a message whenever it leaves a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.botLeaveCommand({//command
@@ -17,7 +17,7 @@ code: `Your code`//message sent to <channel>
 })
 ```
 
-#### Example command:
+## Example command:
 
 ```javascript
 bot.botLeaveCommand({

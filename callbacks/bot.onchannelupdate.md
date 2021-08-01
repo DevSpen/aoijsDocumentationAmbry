@@ -9,7 +9,7 @@ description: >-
 
 This command gets triggered everytime a channel was updated on a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.channelUpdateCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.channelUpdateCommand({ 
@@ -31,7 +31,7 @@ New Name: $newChannel[name]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use these functions [$newChannel\[\] ](../functions/usdnewchannel.md)and [$oldChannel\[\]](../functions/usdoldchannel.md) with the options below to return new and old channel data:
 

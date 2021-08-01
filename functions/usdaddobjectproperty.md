@@ -6,7 +6,7 @@ description: Adds a property (Key) to an existing object.
 
 With this function you can add properties \(Keys\) to an object previously created in JSON format.
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw Usage: `$addObjectProperty[key;value]`
 
-#### Options
+## Options
 
 * Key - The "name" of the object value
 * Value - The value that's assigned to the &lt;key&gt;
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

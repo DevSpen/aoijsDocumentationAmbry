@@ -8,7 +8,7 @@ description: >-
 
 This command will have the bot send a given message to the given channel when it turns online.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.readyCommand({ //command
@@ -17,7 +17,7 @@ bot.readyCommand({ //command
 })
 ```
 
-#### Example command:
+## Example command:
 
 ```javascript
 bot.readyCommand({

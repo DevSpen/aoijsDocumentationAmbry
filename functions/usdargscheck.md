@@ -6,7 +6,7 @@ description: Creates a condition depending in the amount of args required.
 
 This function will check if the condition is met between the desired number of arguments and the number of arguments that are actually in the user's message.
 
-#### Fields
+## Fields
 
 This function has 2 fields
 
@@ -15,12 +15,12 @@ This function has 2 fields
 
 Raw Usage: `$argsCheck[number;error message]`
 
-#### Options
+## Options
 
 * Number - The number is the limitation of the arguments
 * Error - The error message appears when the limitation is met
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

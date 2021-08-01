@@ -2,7 +2,7 @@
 
 This function returns the given user's specified property
 
-#### Usage
+## Usage
 
 This function has 2 fields
 
@@ -11,12 +11,12 @@ This function has 2 fields
 
 Raw Usage: `$user[userID;property]`
 
-#### Options
+## Options
 
 * User ID - The user the properties are based off of
 * Property - The property we're getting from &lt;user&gt;
 
-#### Available Properties
+## Available Properties
 
 * name - User's name
 * id - User's ID

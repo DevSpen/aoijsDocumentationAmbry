@@ -2,7 +2,7 @@
 
 This function returns the locale for the specified guild
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -10,11 +10,11 @@ This function has 1 optional field
 
 Raw Usage: `$serverPerferredLocale[guildID (optional)]`
 
-#### Options
+## Options
 
 * Guild ID - The guild we're getting the info from
 
-#### Usage
+## Usage
 
 Without the optional field
 

@@ -1,8 +1,8 @@
 # $getCooldownTime
 
-This function will allow you to get the resting cooldown time for an user/server or globalUser  type of cooldown, for certain user in the requested command.
+This function will allow you to get the resting cooldown time for an user/server or globalUser type of cooldown, for certain user in the requested command.
 
-#### Fields
+## Fields
 
 This function has 4 required fields
 
@@ -14,21 +14,21 @@ This function has 4 required fields
 
 Raw usage: `$getCooldownTime[time;typeOfCooldown;command name;ID;return ms (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * Type Of Cooldown - The cooldown used in the command
 * Command Name - The command name of where the cooldown is
 * ID - The user's/server's id we're getting the cooldown for
 * Return ms - Whethor or not the function will return the time in ms
 
-#### Types of Cooldown
+## Types of Cooldown
 
 * user - [$cooldown](usdcooldown.md)
 * globalUser - [$globalCooldown](usdglobalcooldown.md)
 * server -[ $serverCooldown](usdservercooldown.md)
 * channel - [$channelCooldown](usdchannelcooldown.md)
 
-#### Usage
+## Usage
 
 Without optional field
 

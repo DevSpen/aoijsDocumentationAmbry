@@ -6,7 +6,7 @@ description: Awaits a user reaction to the message
 
 This function will make the bot reply when a user reacts with the specified emoji
 
-#### Fields
+## Fields
 
 This function has 6 required fields
 
@@ -20,7 +20,7 @@ This function has 6 required fields
 
 Raw Usage: `$awaitReaction[userFilter;time;bot message;reaction1,reaction2,...;awaitedCommand1,awaitedCommand2,...;error message;deleteMessageUponReact (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * userFilter - Use everyone or a userID to filter who can react
 * time - When time runs out, error message will appear
@@ -30,7 +30,7 @@ Raw Usage: `$awaitReaction[userFilter;time;bot message;reaction1,reaction2,...;a
 * error - The message when the time runs out
 * deleteMessageUponReact - When someone reacts it'll delete &lt;bot message&gt;
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

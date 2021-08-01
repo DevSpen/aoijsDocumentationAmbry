@@ -2,7 +2,7 @@
 
 This function gets the specified channels slowmode
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -10,11 +10,11 @@ This function has 1 optional field
 
 Raw Usage: `$getChannelSlowmode[channelID (optional)]`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're getting the slowmode from
 
-#### Usage
+## Usage
 
 Slowmode for the current channel
 

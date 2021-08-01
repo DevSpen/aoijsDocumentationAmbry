@@ -6,7 +6,7 @@ description: addField allows you to add more fields in your embed.
 
 This function is in charge of adding a new field to the embed, these containing a limit of 1000 characters each and allowing to use 10 fields per embed.
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -16,13 +16,13 @@ This function has 2 required fields
 
 Raw Usage: `$addField[title;description;inline (optional)]`
 
-#### Options
+## Options
 
 * Name - The title of the new field
 * Content - The description/value of the new field
 * Inline \(yes/no\) - Sets the field into an inline field
 
-#### Usage
+## Usage
 
 Without inline
 
@@ -45,8 +45,4 @@ bot.command({
     `
 });
 ```
-
-
-
-
 

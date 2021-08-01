@@ -6,7 +6,7 @@ description: Return's the given user's activities.
 
 This function shows the current activity of the indicated user \(Only if it detects any activity.\), If the indicated user does not have an activity such as a 'custom status' it will show 'none'.
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,18 +14,18 @@ This function has 1 field
 
 Raw Usage: `$activity[userID (optional)]`
 
-#### Options
+## Options
 
 * userID - The user the activity is based on
 
-#### Activities
+## Activities
 
 * Custom Status
 * Spotify _\(Listening to\)_
 * &lt;Game Name&gt; _\(Playing\)_
 * Streaming
 
-#### Usage
+## Usage
 
 Without a user ID
 
@@ -44,10 +44,4 @@ bot.command({
     code: `$activity[535566311942651924]`
 });
 ```
-
-
-
-
-
-
 

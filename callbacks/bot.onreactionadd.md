@@ -7,7 +7,7 @@ description: >-
 
 # bot.onReactionAdd
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.reactionAddCommand({ //command
@@ -16,7 +16,7 @@ bot.reactionAddCommand({ //command
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.reactionAddCommand({
@@ -25,7 +25,7 @@ bot.reactionAddCommand({
 })
 ```
 
-#### Functions:
+## Functions:
 
 * [$emojiToString](../functions/usdemojitostring.md) =&gt; the exactly emoji itself, either default emoji e.g. `🎉` or `<:emojiname:emojiID>` style. 
 * [$emojiName ](../functions/usdemojiname.md)=&gt; the name of the emoji the user reacted with

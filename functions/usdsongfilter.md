@@ -6,7 +6,7 @@ This function can change the music's filter such as bassboost and many more.
 $songFilter[type:value;type:value;...]
 ```
 
-### Available Types
+## Available Types
 
 {% tabs %}
 {% tab title="Pitch" %}
@@ -44,9 +44,9 @@ Sets a speed for the audio
 
 Raw Usage: `speed:number`
 
- Usage: `speed:1.5`
+Usage: `speed:1.5`
 
- Min: `0.1` Max: `1.9`
+Min: `0.1` Max: `1.9`
 {% endtab %}
 
 {% tab title="Vibrato" %}
@@ -54,7 +54,7 @@ Sets a vibrato for the audio
 
 Raw Usage: `vibrato:number`
 
- Usage: `vibrato:0.5`
+Usage: `vibrato:0.5`
 
 Min: `0.1` Max: `0.9`
 {% endtab %}
@@ -64,7 +64,7 @@ Set a pulsator to the audio
 
 Raw Usage: `pulsator:number`
 
- Usage: `pulsator:5`
+Usage: `pulsator:5`
 
 Min: `0.1` Max: `99.9`
 {% endtab %}
@@ -76,7 +76,7 @@ Raw Usage: `contrast:number`
 
 Usage: `contrast:1`
 
- Min: `0.1` Max: `99.9`
+Min: `0.1` Max: `99.9`
 {% endtab %}
 
 {% tab title="Gate" %}
@@ -86,7 +86,7 @@ Raw Usage: `gate:on/off`
 
 On: `1` Off: `0`
 
- Usage: `gate:1`
+Usage: `gate:1`
 {% endtab %}
 
 {% tab title="Flanger" %}
@@ -116,7 +116,7 @@ Raw Usage: `surround:on/off`
 
 On: `1` Off: `0`
 
- Usage: `surround:1`
+Usage: `surround:1`
 {% endtab %}
 
 {% tab title="Ear Wax" %}
@@ -126,7 +126,7 @@ Raw Usage: `earwax:on/off`
 
 On: `1` Off: `0`
 
- Usage: `earwax:1`
+Usage: `earwax:1`
 {% endtab %}
 {% endtabs %}
 
@@ -145,6 +145,4 @@ This sets the bass to '50' and sets the speed to '2x' speed
 */
 })
 ```
-
-
 

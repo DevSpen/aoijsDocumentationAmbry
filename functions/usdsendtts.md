@@ -8,7 +8,7 @@ This function lets the bot send a text-to-speech message with the given text in 
 
 Raw usage: `$sendTTS[message; channelid ( optional)]`
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

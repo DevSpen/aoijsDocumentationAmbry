@@ -10,5 +10,3 @@ This function is only useable in bot.userUpdateCommand\(\) commands. Examples ca
 
 {% page-ref page="../callbacks/bot.onuserupdate.md" %}
 
-
-

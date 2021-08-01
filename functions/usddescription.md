@@ -6,7 +6,7 @@ description: 'Add a embed description, to your message.'
 
 This function adds an embed to your message
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,11 +14,11 @@ This function has 1 field
 
 Raw Usage: `$description[message]`
 
-#### Options
+## Options
 
 * Message - The message that goes into the embed description
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

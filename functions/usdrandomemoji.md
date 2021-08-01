@@ -6,9 +6,9 @@ description: Returns a random custom emoji from a Guild or a Global custom emoji
 
 This function returns a random custom emoji from from current/provided guild or a custom emoji from one random guild the bot is in depending on given options.
 
-Raw usage: `$randomEmoji[guildID/global (optional)]` 
+Raw usage: `$randomEmoji[guildID/global (optional)]`
 
-#### Example Commands:
+## Example Commands:
 
 Using a random emoji from the current guild:
 

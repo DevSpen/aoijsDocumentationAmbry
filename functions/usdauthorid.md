@@ -6,7 +6,7 @@ description: Returns the ID of the user who ran the command.
 
 This function returns the author's ID \(The one who ran the command\)
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

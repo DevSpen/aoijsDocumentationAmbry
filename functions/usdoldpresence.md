@@ -10,5 +10,3 @@ This function is only useable in [bot.onPresenceUpdate.](../callbacks/bot.onpres
 
 {% page-ref page="../callbacks/bot.onpresenceupdate.md" %}
 
-
-

@@ -2,7 +2,7 @@
 
 Makes the bot join an specified voice channel.
 
-#### Fields
+## Fields
 
 This function has 1 required field.
 
@@ -10,11 +10,11 @@ This function has 1 required field.
 
 Raw usage: `$joinVC[Channel ID]`
 
-#### Options
+## Options
 
 * Channel ID - Channel where the bot should connect to.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

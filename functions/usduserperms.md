@@ -18,5 +18,3 @@ code: `Your Permissions: $userPerms`
 })
 ```
 
-
-

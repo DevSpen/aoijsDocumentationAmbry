@@ -16,5 +16,3 @@ This function can be used only in message related callbacks like bot.onReactionA
 
 {% page-ref page="../callbacks/bot.onmessagedelete.md" %}
 
-
-

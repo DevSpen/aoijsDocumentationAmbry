@@ -9,9 +9,11 @@ View the sharding guide [here](https://aoi.leref.ga/guide/extras/sharding)!
 {% endhint %}
 
 ## Example
+
 ```javascript
 bot.command({
 name: "shard",
 code: `This server is on shard $shardID.`
 })
 ```
+

@@ -2,7 +2,7 @@
 
 This function will convert human readable time into milliseconds.
 
-#### Fields
+## Fields
 
 This function has 1 required field.
 
@@ -10,11 +10,11 @@ This function has 1 required field.
 
 Raw usage: `$parseTime[Time]`
 
-#### Options
+## Options
 
 * Time - The human readable time you want to convert.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

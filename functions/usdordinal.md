@@ -2,7 +2,7 @@
 
 This function adds `st`,`nd`,`rd`,`th` to the end of a number
 
-#### Usage
+## Usage
 
 This function has 1 field
 
@@ -10,7 +10,7 @@ This function has 1 field
 
 Raw Usage: `$ordinal[content]`
 
-#### Options
+## Options
 
 * Content - The content the function is adding the suffix to
 

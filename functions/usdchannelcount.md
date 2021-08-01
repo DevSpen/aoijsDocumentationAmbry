@@ -6,19 +6,19 @@ description: Displays the channel count in the server.
 
 This function will display the total channel count on the server, including categories.
 
-#### Fields
+## Fields
 
 This function has 1 field
 
 1. Type \(Optional\)
 
-Raw Usage: `$channelCount[type (Optional)]` 
+Raw Usage: `$channelCount[type (Optional)]`
 
-#### Options
+## Options
 
 * Type - the channel type you want to count \(text, voice, category\)
 
-#### Usage
+## Usage
 
 Standard Use
 

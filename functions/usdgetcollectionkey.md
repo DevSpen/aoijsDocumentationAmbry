@@ -17,7 +17,7 @@ bot.command({
 /*
     Using a collection created at: 
     https://aoi.leref.ga/functions/usdcreatecollection
-    
+
     And a key created at:
     https://aoi.leref.ga/functions/usdsetcollectionkey
 */

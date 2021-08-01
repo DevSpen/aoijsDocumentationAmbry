@@ -2,7 +2,7 @@
 
 This function deletes the specified variable from the database
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -11,12 +11,12 @@ This function has 1 required field
 
 Raw Usage: `$deleteGlobalUserVar[variable;userID (optional)]`
 
-#### Options
+## Options
 
 * Variable - The variable we're deleting
 * User ID - The user we're deleting for
 
-#### Usage
+## Usage
 
 Without optional fields
 

@@ -8,7 +8,7 @@ With this function you can check how many channel mentions in the command's mess
 
 Raw usage: `$mentionedRolesCount`
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

@@ -4,7 +4,7 @@ description: returns the memory usage in MB
 
 # $ram
 
-This function returns the memory usage in Megabyte. 
+This function returns the memory usage in Megabyte.
 
 ```javascript
 bot.command({

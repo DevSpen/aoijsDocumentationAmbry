@@ -2,7 +2,7 @@
 
 This function converts rgb color into hex or color number.
 
-#### Fields
+## Fields
 
 This function has 3 required fields.
 
@@ -13,14 +13,14 @@ This function has 3 required fields.
 
 Raw usage: `$resolveColor[Red; Green; Blue;toHex (optional) (yes/no)]`
 
-#### Options
+## Options
 
 * Red - Amount of red into the color
 * Green - Amount of green into the color
 * Blue - Amount of blue into the color
 * toHex - If the bot should convert it to hex or return the color number.
 
-#### Usage without optional field
+## Usage without optional field
 
 ```javascript
 bot.command({
@@ -29,7 +29,7 @@ bot.command({
 })
 ```
 
-#### Usage with optional field
+## Usage with optional field
 
 ```javascript
 bot.command({

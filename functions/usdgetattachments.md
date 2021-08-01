@@ -6,10 +6,9 @@ description: Gets attachment info of the provided Message.
 
 With this function you can get information about message attachments, e.g. the name or url of an image.
 
-Raw usage: `$getAttachments[channelid;messageid;position;properties]`  
+Raw usage: `$getAttachments[channelid;messageid;position;properties]`
 
-
-#### Properties: 
+## Properties:
 
 * `name` =&gt; the name of the attachment
 * `id` =&gt; the attachment ID
@@ -17,7 +16,7 @@ Raw usage: `$getAttachments[channelid;messageid;position;properties]`
 * `size` =&gt; the size of the file/image
 * `width` =&gt; the width of the attachment
 
-#### Example Command:
+## Example Command:
 
 ```text
 bot.command({

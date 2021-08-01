@@ -10,7 +10,7 @@ This function evals the given discord.js code
 You should restrict the use of this function to yourself
 {% endhint %}
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -19,12 +19,12 @@ This function has 1 required field
 
 Raw Usage: `$djsEval[code;return code (yes/no) (optional)]`
 
-#### Options
+## Options
 
 * Code - The discord.js code we're evaling
 * Return Code - Returns the output of the code without message.channel.send\(...\)
 
-#### Usage
+## Usage
 
 Evaling a pre-written code
 
@@ -64,6 +64,4 @@ a;yes]
 //Will return 'apple' without m.channel.send(...)
 })
 ```
-
-
 

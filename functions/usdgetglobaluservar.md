@@ -6,7 +6,7 @@ description: Get The Global User Var
 
 This function returns the value of the given value for the given user.
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -15,12 +15,12 @@ This function has 1 required field
 
 Raw Usage: `$getGlobalUserVar[variable;userID (optional)]`
 
-#### Options
+## Options
 
 * Variable - The variable value we're getting for the &lt;user&gt;
 * User ID - The user's variable value we're getting
 
-#### Usage
+## Usage
 
 Current User's Variable Value
 
@@ -41,8 +41,4 @@ code: `
 $getGlobalUserVar[variable;$mentioned[1]]`
 })
 ```
-
-
-
-
 

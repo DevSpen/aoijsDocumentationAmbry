@@ -2,7 +2,7 @@
 
 This function removes the given word\(s\) from the given message
 
-#### Fields
+## Fields
 
 This function has 3 required fields
 
@@ -14,13 +14,13 @@ This function has 3 required fields
 
 Raw Usage: `$filterMessageWords[text;caseSensitive (yes/no);word;word2;etc]`
 
-#### Options
+## Options
 
 * Text - The text we're filtering the words from
 * Case Sensitive - Whether or not the &lt;word\(s\)&gt; should be case sensitive
 * Word\(s\) - The words we're filtering
 
-#### Usage
+## Usage
 
 Without optional field
 

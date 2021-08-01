@@ -10,7 +10,7 @@ This function kicks all inactive members without roles and with optional given r
 
 Raw usage: `$pruneMembers[amount of days(optional);guildID(optional);reason (optional);roleid1:roleid2:roleid3... (optional)]`
 
-#### Options:
+## Options:
 
 * `amount of days` =&gt; Number of days of inactivity required to kick 
   * optional
@@ -26,7 +26,7 @@ Raw usage: `$pruneMembers[amount of days(optional);guildID(optional);reason (opt
   * optional
   * separated by colons
 
-#### Example Command:
+## Example Command:
 
 This example kicks all inactive members without roles they have been inactive on Discord for at least 30 days and all inactive members with my two given roles with the reason "Too many members".
 

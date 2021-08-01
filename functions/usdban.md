@@ -6,7 +6,7 @@ description: Bans an user from the guild using their ID.
 
 This function allows you to ban someone from the server using their user ID.
 
-#### Fields
+## Fields
 
 This function has 3 properties, 1 required and 2 optional.
 
@@ -16,13 +16,13 @@ This function has 3 properties, 1 required and 2 optional.
 
 Raw Usage: `$ban[userID;reason (Optional);MessagesToDelete (Optional)`
 
-#### Options
+## Options
 
 * UserID - The user the bot is banning
 * Reason - The reason in the audit logs
 * MessagesToDelete - How many of the messages over x days to delete of the banned user
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -54,6 +54,4 @@ bot.command({
     `
 });
 ```
-
-
 

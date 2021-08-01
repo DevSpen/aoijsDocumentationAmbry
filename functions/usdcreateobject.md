@@ -6,7 +6,7 @@ description: Creates an object that can be used later
 
 This function creates an object. Simplified terms, its a in-code variable that is only accessible in the current code
 
-#### Fields
+## Fields
 
 This function has 1 optional field
 
@@ -14,11 +14,11 @@ This function has 1 optional field
 
 Raw Usage: `$createObject[{json (required)}]`
 
-#### Options
+## Options
 
 * JSON - The key & property in the object
 
-#### Usage
+## Usage
 
 Without optional field
 

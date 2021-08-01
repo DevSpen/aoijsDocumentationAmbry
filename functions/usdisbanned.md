@@ -4,7 +4,7 @@ description: Checks if user is banned. Returns true or false
 
 # $isBanned
 
-This  function checks if the given user is banned or not. Returns boolean
+This function checks if the given user is banned or not. Returns boolean
 
 ```text
 $isBanned[user ID;guild ID (optional)]

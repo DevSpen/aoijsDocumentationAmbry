@@ -6,7 +6,7 @@ description: Modifies a custom emoji from this guild by using its ID.
 
 This function modifies the given emoji
 
-#### Fields
+## Fields
 
 This function has 2 required fields
 
@@ -16,13 +16,13 @@ This function has 2 required fields
 
 Raw Usage: `$modifyEmoji[emojiID;name;role1 (optional);role2 (optional);etc]`
 
-####  Optioons
+## Optioons
 
 * Emoji ID - The ID of the emoji we're modifying
 * Name - The new name of the emoji
 * Role\(s\) - The roles that are allowed to use the emoji. Only users with that role can use the emoji. Leave it empty to let everyone use that emoji.
 
-#### Usage
+## Usage
 
 Without optional field
 

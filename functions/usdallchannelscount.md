@@ -8,7 +8,7 @@ description: >-
 
 This function returns the amount of channels the bot has access to globally
 
-#### Usage
+## Usage
 
 This function has 1 optional field
 
@@ -16,14 +16,14 @@ This function has 1 optional field
 
 Raw Usage: `$allChannelsCount[type (optional)]`
 
-#### Types
+## Types
 
 * text
 * voice
 * category
 * news
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

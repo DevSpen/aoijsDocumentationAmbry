@@ -17,5 +17,3 @@ code: `your platform is $platform[$authorID]`
 })
 ```
 
-
-

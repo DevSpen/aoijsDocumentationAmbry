@@ -11,7 +11,7 @@ This callback will trigger when the bot sees someone typing.
 
 Example:
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.typingStartCommand({
@@ -20,7 +20,7 @@ code: `Your code`
 });
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.typingStartCommand({

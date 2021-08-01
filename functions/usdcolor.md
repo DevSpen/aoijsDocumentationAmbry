@@ -6,7 +6,7 @@ description: 'Add color, to your sidebar embed description.'
 
 This function adds color to the embed
 
-#### Fields
+## Fields
 
 This function has 1 field
 
@@ -14,17 +14,17 @@ This function has 1 field
 
 Raw Usage: `$color[color]`
 
-#### Options
+## Options
 
 * Color - The color your setting to the embed
 
-#### Color Types
+## Color Types
 
 * Hex - Use hex color codes - Example: \#ff00ff
 * Names - Use the name of the color - Example: RED
 * RANDOM - Chooses a random color
 
-#### Usage
+## Usage
 
 With Hex
 

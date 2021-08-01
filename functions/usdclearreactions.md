@@ -6,7 +6,7 @@ description: Clears the given emojis from the given message
 
 This function will remove the given emoji or all the emojis from the given message
 
-#### Fields
+## Fields
 
 This function has 3 fields
 
@@ -16,13 +16,13 @@ This function has 3 fields
 
 Raw Usage: `$clearReactions[channelID;messageID;emoji/all]`
 
-#### Options
+## Options
 
 * Channel  ID - The channel the message is from
 * Message ID - The message we're clearing the reactions from
 * Emoji/All - The emoji\(s\) we're clearing
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
@@ -33,8 +33,4 @@ bot.command({
   //Clears all the reactions for all the users
 });
 ```
-
-
-
-
 

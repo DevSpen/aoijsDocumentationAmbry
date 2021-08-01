@@ -6,7 +6,7 @@ description: Adds a reaction to the given message ID
 
 This function will add a reaction to the specified message ID
 
-#### Fields
+## Fields
 
 This function has 3 required fields
 
@@ -18,13 +18,13 @@ This function has 3 required fields
 
 Raw usage: `$addMessageReactions[Channel ID;Message ID;Reaction 1;Reaction 2,...]`
 
-#### Options
+## Options
 
 * Channel ID - The channel of which the &lt;messageID&gt; is situated in
 * Message ID - The message of which the reactions will react to
 * Reaction - The emojis of which will be reacted to the &lt;message&gt;
 
-#### Usage
+## Usage
 
 Singular Reaction
 

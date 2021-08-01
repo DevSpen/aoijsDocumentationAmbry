@@ -9,7 +9,7 @@ description: >-
 
 This callback triggers every time a role gets updated
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.roleUpdateCommand({ //Command
@@ -18,7 +18,7 @@ code: `your code` //Code sent to <channel>
 })
 ```
 
-#### Example Command:
+## Example Command:
 
 ```javascript
 bot.roleUpdateCommand({ 
@@ -31,7 +31,7 @@ New Name: $newRole[name]
 })
 ```
 
-#### Options:
+## Options:
 
 You can use these functions [$oldRole\[\]](../functions/usdoldrole.md) and [$newRole\[\]](../functions/usdnewrole.md) with the options below to return old and new role data:
 
@@ -48,6 +48,4 @@ You can use these functions [$oldRole\[\]](../functions/usdoldrole.md) and [$new
 * `managed:` =&gt; Whether this role is managed by discord or not \(bot- & booster-roles\)
 * `deleted:` =&gt; Whether the role was deleted or not
 * `permissions` =&gt; The permissions for this role
-
-
 

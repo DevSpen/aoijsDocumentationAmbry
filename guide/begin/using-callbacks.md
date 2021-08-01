@@ -4,7 +4,7 @@ description: Here you can learn the usage of callbacks.
 
 # Using Callbacks
 
-### What Are Callbacks?
+## What Are Callbacks?
 
 Aoi.JS has several event listeners, called "callbacks" to cover most events of the Discord API.
 
@@ -12,7 +12,8 @@ Each of them have their own usage and command type, to run their own tasks \(e.g
 
 All callbacks are optional except the [bot.onMessage\(\)](../../callbacks/bot.onmessage.md) one. If you want to use certain callbacks, they need to be in your main file to let the bot listen to their events and use their different command types.
 
-### Types of Callbacks
+## Types of Callbacks
+
 * [bot.onBanAdd\(\) ](../../callbacks/bot.onbanadd.md)
 * [bot.onBanRemove\(\)](../../callbacks/bot.onbanremove.md)
 * [bot.onChannelCreate\(\) ](../../callbacks/bot.onchannelcreate.md)
@@ -39,21 +40,22 @@ All callbacks are optional except the [bot.onMessage\(\)](../../callbacks/bot.on
 * [bot.onUserUpdate\(\) ](../../callbacks/bot.onuserupdate.md)
 * [bot.onVoiceStateUpdate\(\) ](../../callbacks/bot.onvoicestateupdate.md)
 
-### Using A Callback
+## Using A Callback
 
 Easy! Just paste the callback you want to use in your main file, below the bot creation. Like this:
 
 ```javascript
 const Aoijs = require("aoi.js")
- 
+
 const bot = new Aoijs.Bot({
   token: "TOKEN", //Discord Bot Token
   prefix: ["PREFIX"] //Change PREFIX to your Prefix
 })
- 
+
 bot.onMessage() // Allows Commands to Executed
 bot.onJoined() // Allows to log users joining servers
 bot.onLeave() // Allows to log users leaving servers
 bot.onBanAdd() // Allows to log user bans from servers
 bot.onBanRemove() // Allows to log users being unbanned from servers
 ```
+

@@ -6,7 +6,7 @@ description: Deletes the specified emoji from the guild
 
 This function deletes an emoji from the current guild
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -16,11 +16,11 @@ This function has 1 required field
 
 Raw Usage: `$deleteEmoji[emoji1;emoji2;...]`
 
-#### Options
+## Options
 
 * Emoji\(s\) - The emoji\(s\) you want to delete
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

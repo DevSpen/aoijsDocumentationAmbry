@@ -6,7 +6,7 @@ description: Returns the current command's code
 
 This function returns the current commands code
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

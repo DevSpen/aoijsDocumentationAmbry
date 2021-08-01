@@ -2,7 +2,7 @@
 
 This function will map every text value in the specified text
 
-#### Fields
+## Fields
 
 This function has 3 required fields
 
@@ -13,7 +13,7 @@ This function has 3 required fields
 
 Raw Usage: `$map[text;splitter;awaitedCommand;separator (optional)]`
 
-#### Options
+## Options
 
 * Text - The text where the values are
 * Splitter - The separator for each value
@@ -21,7 +21,7 @@ Raw Usage: `$map[text;splitter;awaitedCommand;separator (optional)]`
 * Separator - The separator that separates each value
 * {value} - Used in the awaited command to get the value of each mapped element in the array
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

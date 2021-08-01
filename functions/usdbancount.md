@@ -2,7 +2,7 @@
 
 This function returns how many bans the current guild has
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

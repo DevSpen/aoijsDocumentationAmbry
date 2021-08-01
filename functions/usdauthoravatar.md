@@ -6,7 +6,7 @@ description: Returns the author's avatar in url format
 
 This function returns the URL of the avatar of the person who ran the command.
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

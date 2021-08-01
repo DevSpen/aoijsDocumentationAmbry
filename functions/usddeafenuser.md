@@ -6,7 +6,7 @@ description: Used to deaf a user.
 
 With this function you will be able to deaf the selected user with the bot.
 
-#### Fields
+## Fields
 
 This function has 3 fields
 
@@ -16,13 +16,13 @@ This function has 3 fields
 
 Raw usage: `$deafenUser[User ID;Deafen (yes/no);Reason (Optional)]`
 
-#### Options
+## Options
 
 * User ID - The user being defeaned
 * Deafen - Whether or not the defean the &lt;user&gt;
 * Reason - The reason will appear in the audit logs
 
-#### Usage
+## Usage
 
 Deafening the mentioned user
 

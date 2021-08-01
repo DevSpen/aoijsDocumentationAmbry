@@ -2,7 +2,7 @@
 
 This function formats a specified time to the given format
 
-#### Fields
+## Fields
 
 This function has 1 required field
 
@@ -11,19 +11,19 @@ This function has 1 required field
 
 Raw Usage: `$formatDate[time;format (Optional)]`
 
-#### Options
+## Options
 
 * Time - The time to be formatted
 * Format - The format on how you want the date to be returned
 
-#### Time Options
+## Time Options
 
 * datestamp - Example: 1615571386000
 * milliseconds - Example: 31556926000ms
 * stringed date - Example: 1/17/2019, 9:09:19 PM
 * ISO String - Example: 2021-3-12T14:48:00.000Z
 
-#### Format Options
+## Format Options
 
 * Blank \(No format provided\) - Example: Friday, 12 March 2021
 * LT - Time - Example: 4:01 AM
@@ -35,7 +35,7 @@ Raw Usage: `$formatDate[time;format (Optional)]`
 * HH - Hour - Example: 15
 * For more formats, check [here](https://thecodebarbarian.com/formatting-javascript-dates-with-moment-js.html)
 
-#### Usage
+## Usage
 
 Simple Usage
 

@@ -8,7 +8,7 @@ description: >-
 
 This callback allows the bot to log every time someone gets banned from a server.
 
-#### Usage:
+## Usage:
 
 ```javascript
 bot.banAddCommand({ //command
@@ -17,7 +17,7 @@ code: `your code` // your code
 })
 ```
 
-#### Example Commands:
+## Example Commands:
 
 ```javascript
 bot.banAddCommand({ 

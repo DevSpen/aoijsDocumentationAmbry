@@ -6,7 +6,7 @@ description: Edits channel properties.
 
 This function will allow you to modify a channel using the channel ID.
 
-#### Fields
+## Fields
 
 This function has 6 required fields:
 
@@ -22,7 +22,7 @@ This function has 6 required fields:
 
 Raw usage: `$editChannel[channelID;categoryID/$default;name/$default;position/$default;nsfw/$default (yes/no);bitrate/$default;userLimit/$default;syncPermission (yes/no);reason (optional)]`
 
-#### Options
+## Options
 
 * Channel ID - The channel we're editing
 * Category ID - The category the channel is in
@@ -35,7 +35,7 @@ Raw usage: `$editChannel[channelID;categoryID/$default;name/$default;position/$d
 * Reason - The reason in the audit logs
 * $default - This puts the property to the original/default option
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

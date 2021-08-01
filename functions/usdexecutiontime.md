@@ -2,7 +2,7 @@
 
 This function returns how long it took to execute ALL the functions in the current code in ms
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({

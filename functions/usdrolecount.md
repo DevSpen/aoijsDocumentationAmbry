@@ -14,5 +14,3 @@ Roles in this guild: $roleCount`
 })
 ```
 
-
-

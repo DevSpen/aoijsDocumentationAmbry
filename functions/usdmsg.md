@@ -2,7 +2,7 @@
 
 This function returns the given message's specified property
 
-#### Fields
+## Fields
 
 This function has 3 fields
 
@@ -12,13 +12,13 @@ This function has 3 fields
 
 Raw Usage: `$msg[channelID;messageID;property]`
 
-#### Options
+## Options
 
 * Channel ID - The channel where the &lt;message&gt; is
 * Message ID - The message the properties are based off of
 * Property - The property you want to get from &lt;message&gt;
 
-#### Properties
+## Properties
 
 * author - Message's Author's ID
 * authormention - Message's Author's mention
@@ -40,7 +40,7 @@ Raw Usage: `$msg[channelID;messageID;property]`
 * guildname - Message's guild's name of origin
 * url - Message's url
 
-#### Usage
+## Usage
 
 Pre-specified message
 

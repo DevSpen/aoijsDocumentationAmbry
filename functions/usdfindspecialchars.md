@@ -2,19 +2,19 @@
 
 This function will filter out special characters from the given &lt;string&gt; and return them alone
 
-#### Fields
+## Fields
 
-This function  has 1 field
+This function has 1 field
 
 1. String \(Required\)
 
 Raw Usage: `$findSpecialChars[string]`
 
-#### Options
+## Options
 
 * String - The text we're filtering
 
-#### Usage
+## Usage
 
 ```javascript
 bot.command({
