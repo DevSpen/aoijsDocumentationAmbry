@@ -4,7 +4,7 @@ description: Aliases allow users to run the same command using different trigger
 
 # Aliases
 
-## Regular Aliases
+### Regular Aliases
 
 ```javascript
 bot.command({
@@ -16,7 +16,7 @@ code: `code`
 
 _Aliases are listed in a_ [_array_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_._
 
-## Aliases for Command Handler
+### Aliases for Command Handler
 
 ```javascript
 module.exports = ({

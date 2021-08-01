@@ -10,7 +10,7 @@ description: How to setup dbd.express quick and easy.
 
 ## Introduction
 
-Your personal dashboard to use to create, edit or delete commands. Add variables or a status...maybe more events! The dashboard is made for user friendly with customizable UI you can make with HTML / CSS
+Your personal dashboard to use to create, edit or delete commands. Add variables or a status...maybe more events! The dashboard is made for user friendly with customizable UI you can make with HTML / CSS.
 
 ## Getting Started
 
@@ -66,7 +66,7 @@ resolve()
 
 ### Logging In
 
-Now you need to go to the dashboard home page
+Now you need to go to the dashboard home page.
 
 ![](../../.gitbook/assets/image%20%2866%29.png)
 
@@ -112,45 +112,45 @@ There is a confirmation just incase if you misclick!
 
 #### Creating callbacks
 
-Firstly, make a command like normal, but now pick which callback you want
+Firstly, make a command like normal, but now pick which callback you want.
 
 ![](../../.gitbook/assets/image%20%2872%29.png)
 
-Now once you've picked one, name it whatever, for my example its just named 'joincommand'
+Now once you've picked one, name it whatever, for my example its just named 'joincommand'.
 
-This is very important. At the bottom of the command editor, once you see 'add property', add a property named `channel` and put a channel id or a variable there
+This is very important. At the bottom of the command editor, once you see 'add property', add a property named `channel` and put a channel id or a variable there.
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
 #### Editing Callbacks
 
-Edit your callbacks like you would normally
+Edit your callbacks like you would normally.
 
 #### Deleting Callbacks
 
-Delete your callbacks like you would normally
+Delete your callbacks like you would normally.
 
 ### Variables
 
 #### Creating Variables
 
-When creating a variable, you should go over to the variable page found on the nav bar
+When creating a variable, you should go over to the variable page found on the nav bar.
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
-Once you're there, you should click 'New Variable'
+Once you're there, you should click 'New Variable'.
 
 ![](../../.gitbook/assets/image.png)
 
-Once you've clicked the button, you should fill out your desired variable information
+Once you've clicked the button, you should fill out your desired variable information.
 
 ![](../../.gitbook/assets/image%20%2870%29.png)
 
-Now just hit 'Save Variable'
+Now just hit 'Save Variable'.
 
 #### Editing Variables
 
-Editing the variables is just slightly different then commands. Instead of clicking the 3 dots, you just click the underlined text
+Editing the variables is just slightly different then commands. Instead of clicking the 3 dots, you just click the underlined text.
 
 ![](../../.gitbook/assets/image%20%2851%29.png)
 
@@ -158,9 +158,9 @@ Then just edit them like normal! _Don't forget to save your changes &lt;3_
 
 #### Deleting Variables
 
-Deleting the variables are basically the same as editing them but instead of changing anything, you hit 'Delete Variable'
+Deleting the variables are basically the same as editing them but instead of changing anything, you hit 'Delete Variable'.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
-There is a confirmation just incase you misclick
+There is a confirmation just in case you misclick.
 

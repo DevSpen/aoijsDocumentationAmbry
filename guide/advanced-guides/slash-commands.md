@@ -16,35 +16,29 @@ When getting started with slash commands, it's important to know what you should
 
 ### Correct OAuth2 Link
 
-Your bot invitation link must have this checked.
+Your bot invitation link must have the `applications.commands` scope checked.
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
 {% hint style="warning" %}
-**Re-invite** your bot or else it will not work
+Re-invite your bot else slash commands will not work _\(unless it already has the scope\)._
 {% endhint %}
 
 ### Knowing the limits
 
-Each guild can have 50 slash commands. Remember, everything can be abused, as well as slash commands so use at own risk
+* Each guild can have 100 slash commands per bot. 
+* 2 Slash Commands can not be the same name in the same guild
+* Slash command names can not contain special symbols and must be shorter than 32 characters.
 
-### Important Information
+### Slash Command Layout
 
-2 Slash Commands can not be the same name in the same guild
+![BLUE: NAME \| ORANGE: DESCRIPTION](../../.gitbook/assets/image%20%2873%29.png)
 
-Slash command names can not contain special symbols and must be shorter than 32 characters
-
-Slash Command Information break down
-
-![BLUE: NAME/TRIGGER \| RED/ORANGE: DESCRIPTION](../../.gitbook/assets/image%20%2873%29.png)
-
-## The Functions
-
-Let's first get to know the functions and how to use them
+### The Functions
 
 ### $createSlashCommand
 
-This function will create a slash command!
+This function will create a slash command.
 
 ```text
 $createSlashCommand[guildID;name;description;options (optional)]
@@ -62,7 +56,7 @@ the description will say "A cool slash command for AOIjs"
 })
 ```
 
-Using function will `options` filled out
+Using function will `options` filled out:
 
 ```javascript
 bot.command({
@@ -79,7 +73,7 @@ code: `$createSlashCommand[$guildID;AOIjs;A cool slash command for AOIjs;message
 
 ### $getSlashCommandID
 
-This function gets the specified slash command's id that we can use later
+This function gets the specified slash command's ID, that we can use later:
 
 ```javascript
 $getSlashCommandID[name;guildID]
@@ -98,7 +92,7 @@ This will get the ID of the slashcommand we created
 
 ### $getSlashCommandOptions
 
-This function gets the &lt;options&gt; in a slash command \(if provided\)
+This function gets the &lt;options&gt; in a slash command \(if provided\).
 
 ```javascript
 $getSlashCommandOptions[name;guildID (optional)]
@@ -117,7 +111,7 @@ This will get the availible options for slash commands
 
 ### $modifySlashCommand
 
-This function will modify an existing slash command
+This function will modify an existing slash command.
 
 ```javascript
 $modifySlashCommand[guildID;commandID;name;description;options (optional)]
@@ -137,7 +131,7 @@ the ID from using '$getSlashCommandID'
 
 ### $deleteSlashCommand
 
-This function deletes the specified slash command
+This function deletes the specified slash command.
 
 ```text
 $deleteSlashCommand[guildID;name/id]
@@ -154,13 +148,15 @@ This will delete our created slashcommand that we made.
 })
 ```
 
+### Callbacks
+
 {% hint style="danger" %}
-Function/Callback below are **needed** for slash commands to work
+Callback below are **needed** for slash commands to work
 {% endhint %}
 
-### bot.onInteractionCreate\(\)
+#### bot.onInteractionCreate\(\)
 
-This will execute if a slash command is used
+This will execute if a slash command is used.
 
 ```javascript
 bot.interactionCommand({ //command
@@ -183,7 +179,7 @@ bot.onInteractionCreate()
 
 ### $interactionReply
 
-This function sends a message to the channel when the slash command in executed
+This function sends a message to the channel when the slash command in executed.
 
 ```javascript
 $interactionReply[message]
@@ -199,9 +195,7 @@ $interactionReply[AOIjs is an awesome package!]
 bot.onInteractionCreate()
 ```
 
-## Creating a simple slash command
-
-### Making the slash
+### Example
 
 Let's make a simple slash command that will reply with the current package version!
 
@@ -214,12 +208,11 @@ $createSlashCommand[$guildID;version;Return's Aoi.js's current version]`
 })
 ```
 
-### Callback
-
 ```javascript
-bot.interactionCommand({
+ bot.interactionCommand({
  name: "version", 
  code: `$interactionReply[Package Version: $packageVersion]`
+ //Replies to the slash command.
  })
  bot.onInteractionCreate()
 ```

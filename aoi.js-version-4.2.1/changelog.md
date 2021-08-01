@@ -15,13 +15,13 @@ description: 'Aoi.JS - This Package, allows you to make Discord Bot with ease!'
 
 ### Added / Fixed
 
-* New Error system, \(:x: no longer exist\) 
-* Remove not needed if statements in functions, 
-* Interaction commands have been change to using client API. 
-* Fixed {edit} 
+* New error system \(:x: no longer exists\).
+* Remove not needed if statements in functions.
+* Interaction commands have been change to using client API.
+* Fixed `{edit}`.
 * Fixed typo in functions. 
-* Fixed several functions, 
-* Added `SuppressAll / errorMessage` Client Option
+* Fixed several functions.
+* Added `SuppressAll / errorMessage` Client Option.
 
 ## Aoi.JS - 4.0.2
 

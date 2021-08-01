@@ -5,14 +5,21 @@ description: Setting a Hyperlink in an embed's description.
 # Hyperlink
 
 {% hint style="warning" %}
-Hyperlinks only work inside $description and embed fields.
+Hyperlinks only work inside `$description[]` and embed fields.
 {% endhint %}
+
+### Format
+
+```text
+[text](link)
+```
+
+### Example
 
 ```javascript
 bot.command({
 name: "hyperlink", 
-code: `
-$description[[Package](https://www.npmjs.com/package/aoi.js 'click')]` 
+code: `$description[[Package](https://www.npmjs.com/package/aoi.js 'click')]` 
 })
 ```
 

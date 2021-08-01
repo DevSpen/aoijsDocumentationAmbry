@@ -1,25 +1,27 @@
+---
+description: Abbreviates large numbers.
+---
+
 # $abbreviate
 
-This function abbreviates large numbers
+### Usage
 
-## Usage
+```php
+$abbreviate[number]
+```
 
-This function has 1 field
+This function has 1 field.
 
-1. Number \(Required\)
+1. `number` - The number to abbreviate. \| Required
 
-Raw Usage: `$abbreviate[number]`
-
-## Options
-
-* Number - The number the function would abbreviate
-
-## Abbreviations
+### Abbreviations
 
 * k - thousands
 * m - millions
 * b - billions
 * t - trillions
+
+### Example
 
 ```javascript
 bot.command({

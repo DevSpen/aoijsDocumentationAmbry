@@ -4,7 +4,7 @@ description: Using Aoi.JS Custom Events System to add your own Events.
 
 # Custom Events
 
-Custom events are constructors that will run dbdjs commands everytime an event was executed. All it need is an Event Emitter. As example:
+Custom events are constructors that will run Aoi.JS commands everytime an event was executed. All it need is an Event Emitter. Fof example:
 
 ```javascript
 const event = require("events")
@@ -19,8 +19,6 @@ CustomEvent.listen("emitted") //Listen to emitted event and execute all commands
 ```
 
 If you want to get some data from the event you can use `$eventData[property]`
-
-As example:
 
 ```javascript
 /**

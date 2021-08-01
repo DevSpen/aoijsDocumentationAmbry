@@ -4,34 +4,42 @@ description: Using Aoi.JS Invite System to allow an "Invite Tracker" for your Cl
 
 # FetchInvites
 
-## Introduction
+### Introduction
 
 By allowing this method inside the Client Option, you're able add a `Invite Tracker` in your Client.
 
-## How to enable
+### Enabling FetchInvites
 
-To enable simply write in
+To enable simply put this in your main file:
+
+```javascript
+fetchInvites: true
+```
+
+For example:
 
 ```javascript
 const Aoijs = require('aoi.js')
 const bot = new Aoijs.Bot({
 token: "token",
 prefix: "!",
-fetchInvites: true //By enable this as true it can fetch for invites.
+fetchInvites: true
 })
 ```
+
+### Needed Intents
 
 Make sure you enable `SERVER MEMBERS` intents.
 
 ![](../../.gitbook/assets/image%20%2844%29.png)
 
-## Functions Availability
+### Functions Availability
 
 With the invite tracker system, of course there's the functions and customization.
 
-### $userInfo
+#### $userInfo
 
-This function gets the user's invite information
+This function gets the user's invite information.
 
 ```javascript
 $userInfo[option;userID (optional)]
@@ -62,7 +70,7 @@ Invited By: $userTag[$userInfo[inviter]] (\`$userInfo[code]\`)]
 
 ### $resetInvites
 
-This function resets the invites the specified user has OR the whole guild \(if no user specified\)
+This function resets the invites the specified user has OR the whole guild \(if no user specified\).
 
 ```javascript
 $resetInvites[guildID;userID (optional)]

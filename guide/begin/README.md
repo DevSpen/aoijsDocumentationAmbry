@@ -12,7 +12,7 @@ description: The page to guide you with Aoi.JS.
 
 {% tabs %}
 {% tab title="Terminal" %}
-```bash
+```text
 npm install aoi.js
 ```
 {% endtab %}
@@ -44,18 +44,15 @@ bot.readyCommand({
 {% endtab %}
 {% endtabs %}
 
-> You must enter a prefix via `PREFIX`
->
-> You must enter a valid Discord Bot Token via `TOKEN`
-
-{% hint style="success" %}
-Just simple as that you can begin using Aoi.JS
+{% hint style="info" %}
+* You must enter a prefix via `PREFIX`
+* You must enter a valid Discord Bot Token via `TOKEN`
 {% endhint %}
 
 ## package.json
 
 {% hint style="warning" %}
-In most Hosting Services you will need a `package.json` file
+For most hosting services, you will need a `package.json` file.
 {% endhint %}
 
 If you need a example, there's a quick example to use.
@@ -67,9 +64,9 @@ If you need a example, there's a quick example to use.
     "name": "-asdf",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "index.js", //replace 'index.js' with your main file name.
     "scripts": {
-      "start": "node index.js"
+      "start": "node index.js" //replace 'index.js' with your main file name.
     },
     "engines": {
       "node": "12.x"

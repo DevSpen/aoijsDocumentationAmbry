@@ -1,37 +1,27 @@
 ---
-description: Add a Emoji to the Guild.
+description: Adds an emoji to the guild.
 ---
 
 # $addEmoji
 
-This function takes care of automatically adding an emoji to the server using the provided URL.
+###  Usage
 
-{% hint style="warning" %}
-The URL of the original image must be under 256kb in size.
+```php
+$addEmoji[imageURL;emojiName;returnEmoji (yes/no) (optional);roleIDs (optional)]
+```
+
+{% hint style="info" %}
+The imageURL must be under 256kb in size.
 {% endhint %}
 
-## Fields:
+This function has four fields.
 
-This function has 2 properties who are required and another 1 optional.  
-The order it's the next:
+1. `imageURL` - The URL of the image/gif that's being converted to an emoji. \| Required
+2. `emojiName` - The name of the emoji. \| Required
+3. `returnEmoji (yes/no)` - Whether to return the emoji that was newly created. \| Optional
+4. `roleIDs` - List of role IDs they should have access to this emoji. Only members with these role would have access to see and use that emoji. Leave it empty to set to everyone, separate roleIDs using `;`. \| Optional
 
-1. URL \(Required\)
-2. Name \(Required\)
-3. returnEmoji \(Optional\)
-4. roleIDs \(optional\)
-
-Raw Usage: `$addEmoji[url;name;returnEmoji (yes/no)(optional);roleID1;roleID2;...]`
-
-## Options:
-
-* `URL` - The url of the image/gif that's being converted to an emoji
-* `Name` =&gt; The name of the emoji
-* `returnEmoji (yes/no)` =&gt; Returns the emoji that was newly created 
-* `roleIDs` =&gt; array of roles' IDs they should have access to that emeji. Only members with these role would have access to see and use that emoji. Leave it empty to set to everyone.
-
-An example of the use should be the next:
-
-## Usage
+### Example
 
 ```javascript
 bot.command({
@@ -40,11 +30,9 @@ bot.command({
 });
 ```
 
-## Example result:
-
 ![](../.gitbook/assets/mtt45fdb8q.png)
 
 {% hint style="warning" %}
-URL NEEDS to end in `.gif`, `.png` or `.jpg`
+The imageURL needs to end in `.gif`, `.png`, or `.jpg.`
 {% endhint %}
 

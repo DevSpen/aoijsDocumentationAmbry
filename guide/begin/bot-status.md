@@ -4,25 +4,22 @@ description: How to setup a Bot Status
 
 # Bot Status
 
-## How do I set a Bot Status?
-
-It's very simple!
+### Basic Status
 
 {% hint style="danger" %}
-You need to enter the following, in your main index.
+You need to enter the following, in your main file.
 {% endhint %}
 
 ```javascript
 bot.status({
-  text: "Text",
-  type: "PLAYING",
-  time: 12
+  text: "Text", // Status details.
+  type: "PLAYING", // The precense type.
+  status: "idle", // The bot's status.
+  time: 12 //How often to change between different statuses in seconds (should be 12 or more).
 })
 ```
 
-{% hint style="info" %}
-For Multiple Statuses, use the following:
-{% endhint %}
+### Multiple Statuses
 
 ```javascript
 bot.status({
@@ -38,7 +35,9 @@ bot.status({
 })
 ```
 
-## Different Types:
+### Types/Statuses
+
+#### Presence Types:
 
 * PLAYING
 * WATCHING
@@ -46,51 +45,36 @@ bot.status({
 * STREAMING
 * COMPETING
 
-## Bots Discord Status:
+#### Status Types:
 
-{% hint style="info" %}
-If you want to change the bot's discord status use the following
-{% endhint %}
-
-```javascript
-bot.status({
-  text: "Text",
-  type: "PLAYING",
-  status: "idle",
-  time: 12
-})
-```
-
-## Different Statuses:
-
-* idle
-* dnd
 * online
+* dnd
+* idle
 * invisible
 
-## Streaming URL:
+### Streaming Statuses
 
 {% hint style="info" %}
-Streaming-Status supports YouTube-Video-URL or Twitch-Channel-URLs.
+Streaming-Status supports YouTube Video or Twitch Channel URLs.
 
-If you want to enter an URL, Enter the following
+If you want to enter an URL, use the following:
 {% endhint %}
 
 ```javascript
 bot.status({
 text: "Text", 
 type: "STREAMING", 
-url: "Enter URL"
+url: "streamLink"
 })
 ```
 
-## Mobile Status
+### Mobile Status
 
 ```javascript
 const bot = new Aoijs.Bot({
 token: "TOKEN", 
 prefix: "!",
-mobile: true
+mobile: true //enables mobile status
 })
 ```
 
