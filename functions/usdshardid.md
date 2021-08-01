@@ -1,17 +1,17 @@
 ---
-description: Returns the current shard ID
+description: Returns the current shard ID for the server that this command was ran in.
 ---
 
 # $shardID
 
-This function returns the current shard ID for the current server
+{% hint style="info" %}
+View the sharding guide [here](https://aoi.leref.ga/guide/extras/sharding)!
+{% endhint %}
 
-You can find sharding guide [here](https://dbd.leref.ga/guide/sharding)
-
+## Example
 ```javascript
 bot.command({
-name: "shard-ID",
-code: `Shard ID: $shardID`
+name: "shard",
+code: `This server is on shard $shardID.`
 })
 ```
-
