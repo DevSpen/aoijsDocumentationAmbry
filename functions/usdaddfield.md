@@ -1,5 +1,5 @@
 ---
-description: addField allows you to add more fields in your embed.
+description: Adds a new field to the embed.
 ---
 
 # $addField
@@ -8,32 +8,28 @@ This function is in charge of adding a new field to the embed, these containing 
 
 ## Fields
 
-This function has 2 required fields
+```javascript
+$addField[title;description;inline (optional) (yes/no)]
+```
 
-1. Name \(Required\)
-2. Content \(Required\)
-3. Inline \(Optional\)
+This function has two fields.
 
-Raw Usage: `$addField[title;description;inline (optional)]`
+1. `name` - The name of the field. \| Required
+2. `value` - The value of the field. \| Required
+3. `inline` - If 'yes', fields will appear in same line. However, if you have more than 3 fields \(or the fields are just too long\) with inline enabled, the bot will return rows with 3 fields \(2 if there is a thumbnail\) in each row. 'no' by default. \| Optional
 
-## Options
+### Usage
 
-* Name - The title of the new field
-* Content - The description/value of the new field
-* Inline \(yes/no\) - Sets the field into an inline field
-
-## Usage
-
-Without inline
+Without inline:
 
 ```javascript
 bot.command({
     name: "embed",
-    code: `$addField[This is an example field;And this is the content!]`
+    code: `$addField[This is an example field name;And this is the field value!]`
 });
 ```
 
-With inline
+With inline:
 
 ```javascript
 bot.command({

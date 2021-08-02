@@ -4,26 +4,19 @@ description: Add reactions to the message the bot has send in the command.
 
 # $addReactions
 
-This function will be in charge of adding the 'emojis' previously chosen in the message sent by the bot once triggered the command.
+### Usage
 
-## Fields
+```php
+$addReactions[emojis]
+```
 
-This function has 1 required field
+This function has one field.
 
-1. Emoji \(Required\)
-2. Emoji 2 \(Optional\)
-3. Emoji 3 \(Optional\)
-4. Etc
+1. `emojis` - The emojis to react with, separate emojis using `;`.
 
-Raw Usage: `$addReactions[emoji;emoji2;emoji3;...]`
+### Example
 
-## Options
-
-* Emoji - The emoji of which will be reacted to
-
-## Usage
-
-Singular Reaction
+Singular Reaction:
 
 ```javascript
 bot.command({
@@ -35,7 +28,7 @@ bot.command({
 });
 ```
 
-Multiple Reactions
+Multiple Reactions:
 
 ```javascript
 bot.command({

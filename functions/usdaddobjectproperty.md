@@ -4,23 +4,20 @@ description: Adds a property (Key) to an existing object.
 
 # $addObjectProperty
 
-With this function you can add properties \(Keys\) to an object previously created in JSON format.
+With this function you can add properties \(keys\) to an object previously created in JSON format.
 
-## Fields
+### Usage
 
-This function has 2 fields
+```php
+$addObjectProperty[key;value]
+```
 
-1. Key \(Required\)
-2. Value \(Required\)
+This function has two fields.
 
-Raw Usage: `$addObjectProperty[key;value]`
+1. Key - The "name" of the object value. \| Required
+2. Value - The value that's assigned to the 'key'. \| Required
 
-## Options
-
-* Key - The "name" of the object value
-* Value - The value that's assigned to the &lt;key&gt;
-
-## Usage
+### Example
 
 ```javascript
 bot.command({

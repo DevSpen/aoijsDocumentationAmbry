@@ -1,12 +1,16 @@
 ---
-description: Returns the amount of arguments in the message of the user.
+description: Returns the amount of arguments in the user's message.
 ---
 
 # $argsCount
 
-This function will show the number of arguments in the message of the user who activated the command.
+### Usage
 
-## Usage
+```php
+$argsCount
+```
+
+### Example
 
 ```javascript
 bot.command({

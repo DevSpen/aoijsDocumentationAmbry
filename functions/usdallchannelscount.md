@@ -1,29 +1,22 @@
 ---
 description: >-
-  Returns the amount of all the channels of all the guilds your bot is inYou can
-  optionally pass types of channels to count.
+  Returns the count of all the channels of the guilds your bot is in. You can
+  optionally input types of channels to count.
 ---
 
 # $allChannelsCount
 
-This function returns the amount of channels the bot has access to globally
+### Usage
 
-## Usage
+```php
+$allChannelsCount[types (optional)]
+```
 
-This function has 1 optional field
+This function has one field.
 
-1. Type \(Optional\)
+1. `type` - The channel type\(s\) to include in this count, separate types using `;`. Valid types: text, voice, category, news. \| Optional
 
-Raw Usage: `$allChannelsCount[type (optional)]`
-
-## Types
-
-* text
-* voice
-* category
-* news
-
-## Usage
+### Example
 
 ```javascript
 bot.command({

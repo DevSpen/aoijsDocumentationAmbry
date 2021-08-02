@@ -1,26 +1,27 @@
 ---
-description: Creates a condition depending in the amount of args required.
+description: >-
+  This function will check if the condition is met between the desired number of
+  arguments (aka words) and the number of arguments that are actually in the
+  user's message.
 ---
 
 # $argsCheck
 
-This function will check if the condition is met between the desired number of arguments and the number of arguments that are actually in the user's message.
+### Usage
 
-## Fields
+```php
+$argsCheck[number;error message]
+```
 
-This function has 2 fields
+This function has two fields.
 
-1. Number \(Required\)
-2. Error \(Required\)
+1. `howMany` - How many arguments there should be in the user’s message.
 
-Raw Usage: `$argsCheck[number;error message]`
+> For example, if you want users to have 3 or more arguments in their message; you can use `>3`. If you want users to have less than 3 arguments in their message, you can use `<3`. If you want the users to have exactly 3 arguments in their message put `3`.
 
-## Options
+   2. `errorMessage` - The message that the bot will send if the user has too many/little arguments.
 
-* Number - The number is the limitation of the arguments
-* Error - The error message appears when the limitation is met
-
-## Usage
+### Examples
 
 ```javascript
 bot.command({

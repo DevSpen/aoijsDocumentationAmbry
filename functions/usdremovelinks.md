@@ -7,7 +7,7 @@ description: Removes links from the provided text.
 ### Usage
 
 ```php
-$removeLink[text]
+$removeLinks[text]
 ```
 
 This function has one field.

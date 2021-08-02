@@ -1,32 +1,24 @@
 ---
-description: Adds a reaction to the given message ID
+description: Adds reaction(s) to the specified message.
 ---
 
 # $addMessageReactions
 
-This function will add a reaction to the specified message ID
+### Usage
 
-## Fields
+```php
+$addMessageReactions[channelID;messageID;reactions]
+```
 
-This function has 3 required fields
+This function has three fields.
 
-1. Channel ID \(Required\)
-2. Message ID \(Required\)
-3. Reaction \(Required\)
-4. Reaction 2 \(Optional\)
-5. Etc
+1. `channelID` - The channel of which the 'messageID' is in. \| Required
+2. `messageID` - The message to the reactions will get added to. \| Required
+3. `reactions` - The emojis of which will be reacted to the message. Separate emojis using `;`. \| Required
 
-Raw usage: `$addMessageReactions[Channel ID;Message ID;Reaction 1;Reaction 2,...]`
+### Example
 
-## Options
-
-* Channel ID - The channel of which the &lt;messageID&gt; is situated in
-* Message ID - The message of which the reactions will react to
-* Reaction - The emojis of which will be reacted to the &lt;message&gt;
-
-## Usage
-
-Singular Reaction
+Singular Reaction:
 
 ```javascript
 bot.command({
@@ -38,7 +30,7 @@ bot.command({
 });
 ```
 
-Multiple Reactions
+Multiple Reactions:
 
 ```javascript
 bot.command({

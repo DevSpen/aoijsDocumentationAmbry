@@ -4,67 +4,30 @@ description: Sends a Message using raw Discord API.
 
 # $apiMessage
 
-## Description
 
-```javascript
-"sends a Message using raw discord api"
+
+{% hint style="warning" %}
+This function is intended for advanced users of Aoi.JS.
+{% endhint %}
+
+### Usage
+
+```php
+$apiMessage[content;embed;component;referenceMessageID:mentionTheUser(yes/no);return ID (yes/no)]"
 ```
 
-## Status
+This function has 5 fields.
 
-```javascript
-"BETA"
-```
+1. `content` - Sends the normal message.
+2.  `embed` - Sends the embedded message, uses Embed Errors.
+3. `components` - Same as in [interactionReply](usdinteractionreply.md#components).
+4. `reference` - This is for replying to the user.
 
-## Usage
+> **Format:** messageID:mentionTheUser\(yes/no\)
 
-```javascript
-"$apiMessage[content;embed;component;referenceMessageID:mentionTheUser(true/yes/false/no);return Id(yes/no)]"
-```
+    5.  `returnID` - Whether to return the ID of the message sent.
 
-## Fields
-
-### Content
-
-> ```javascript
-> "Sends the normal message"
-> ```
-
-### Embed
-
-> ```javascript
-> "Sends the embedded message"
-> ```
->
-> **Note**:
->
-> This uses embed-errors in their full form.
->
-> example: {author:hi} won't work but {author:hi::} will
->
-> available ones are same as in [interactionReply](usdinteractionreply.md#embed)
->
-> Color only supports hex code and int for now.
->
-> ### Components
->
-> Same as in [interactionReply](usdinteractionreply.md#components)
-
-### Reference
-
-> ```javascript
-> "This is for replying to the user"
-> ```
->
-> **Format:** messageID:mentionTheUser\(true/false\)
-
-### ReturnID
-
-> ```javascript
-> "Returns the id of the message sent"
-> ```
-
-## Example
+### Example
 
 ```javascript
 bot.command({
