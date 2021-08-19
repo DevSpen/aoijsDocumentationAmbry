@@ -10,7 +10,7 @@ description: >-
 ### Usage
 
 ```php
-$argsCheck[number;error message]
+$argsCheck[number;errorMessage]
 ```
 
 This function has two fields.

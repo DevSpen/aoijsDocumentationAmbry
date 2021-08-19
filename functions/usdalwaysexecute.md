@@ -32,11 +32,11 @@ messages: 0 //Making the variable
 
 bot.command({
 name: "$alwaysExecute", 
-code: `$setVar[messages;$sum[$getVar[messages];1]]` //Adds 1 to the value for every message sent
+code: `$setUserVar[messages;$sum[$getUserVar[messages];1]]` //Adds 1 to the value for every message sent
 })
 ```
 
 {% hint style="warning" %}
-Having alot of `$alwaysExecute` commands  can lead to high ping and delayed responses.
+Having alot of `$alwaysExecute` commands can lead to high ping and delayed responses.
 {% endhint %}
 

@@ -22,11 +22,9 @@ This function has two fields.
 ```javascript
 bot.command({
     name: "add-object-property",
-    code: `
-    $getObjectProperty[fact]
+    code: `$getObjectProperty[fact]
     $addObjectProperty[fact;Kuba is cool]
-    $createObject[{}]
-    `
+    $createObject[{}]`
 });
 ```
 

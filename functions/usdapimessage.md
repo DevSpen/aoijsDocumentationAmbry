@@ -4,8 +4,6 @@ description: Sends a Message using raw Discord API.
 
 # $apiMessage
 
-
-
 {% hint style="warning" %}
 This function is intended for advanced users of Aoi.JS.
 {% endhint %}

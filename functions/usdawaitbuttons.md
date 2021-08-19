@@ -6,33 +6,24 @@ description: >-
 
 # $awaitButtons
 
-## **Fields**
+### **Usage**
 
-This function has 6 required fields
+```php
+$awaitButtons[messageID;userFilter;customID,customID,...;awaitcommand,awaitedcommand,...;errorContent,errorEmbed,errorFlags (optional);uses (optional)]
+```
 
-1. msgid \(Required\)
-2. userfilter \(Required\)
-3. customID \(Required\)
-4. reaction \(Required\)
-5. awaitcommand \(Required\)
-6. awaitedcommand \(Required\)
-7. error content,Error embed,erorr flags  \(Optional\)
-8. uses  \(Optional\)
+This function has 8 fields.
 
-Raw Usage: `$awaitButtons[msgid;userfilter; customID, customID,...; awaitcommand, awaitedcommand,...; error content,Error embed,erorr flags (optional);uses (optional : default 1)]`
+1. `messageID` - The ID of the message on which it expects an action.
+2. `userFilter` - Use `everyone` or a userID to filter who can react.
+3. `customID` - The custom ID of this button. Separate custom IDs using`,`.`b`uterror - The message when the time runs out
+4. * uses - number of uses. default 1
+
+Raw Usage:
 
 ## **Options**
 
-* msgid - the id of the discord message on which it expects an action
-* userFilter - Use everyone or a userID to filter who can react
-* customID - 
-* reaction - The reaction that will execute the awaitedCommand when reacted
-* awaitcommand
-* awaitedCommand - The awaitedCommand name that will be executed
-* error - The message when the time runs out
-* uses - number of uses
-
-  \*\*\*\*
+* * \*\*\*\*
 
 ## **Usage**
 

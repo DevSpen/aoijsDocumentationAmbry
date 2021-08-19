@@ -14,7 +14,7 @@ $allChannelsCount[types (optional)]
 
 This function has one field.
 
-1. `type` - The channel type\(s\) to include in this count, separate types using `;`. Valid types: text, voice, category, news. \| Optional
+1. `types` - The channel type\(s\) to include in this count, separate types using `;`. Valid types: text, voice, category, news. \| Optional
 
 ### Example
 

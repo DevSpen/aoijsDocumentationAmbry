@@ -1,12 +1,18 @@
 ---
-description: Returns the author's avatar in url format
+description: Returns the author's avatar URL.
 ---
 
 # $authorAvatar
 
-This function returns the URL of the avatar of the person who ran the command.
+This function returns the URL of the avatar of the person who ran this command.
 
-## Usage
+### Usage
+
+```php
+$authorAvatar
+```
+
+### Example
 
 ```javascript
 bot.command({

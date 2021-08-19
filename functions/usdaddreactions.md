@@ -33,10 +33,8 @@ Multiple Reactions:
 ```javascript
 bot.command({
     name: "question",
-    code: `
-    $addReactions[✔;❌]
-    Does someone reads this?
-    `
+    code: `$addReactions[✔;❌]
+    Does someone reads this?`
 });
 ```
 
